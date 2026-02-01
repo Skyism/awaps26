@@ -395,6 +395,7 @@ class BotPlayer:
 
         if not empty_counters:
             # No empty counters, return first counter as fallback
+            logger("No empty counters found")
             return self.all_counters[0] if self.all_counters else None
 
         # Filter to only reachable counters (can path to Chebyshev distance <= 1)
@@ -417,23 +418,100 @@ class BotPlayer:
             return self.find_closest(controller, bot_x, bot_y, empty_counters)
 
         # Return closest reachable counter
+        logger(f"Bot {bot_id}: Found reachable empty counter")
         return self.find_closest(controller, bot_x, bot_y, reachable_counters)
 
     def find_empty_cooker(self, controller: RobotController, bot_id: int):
-        # we need to find empty cooker that has a cooker on it
+        """Find nearest cooker with a pan that is reachable (can path to adjacent position)"""
         bot_state = controller.get_bot_state(bot_id)
+        if not bot_state:
+            return self.cooker_pos[0] if self.cooker_pos else None
+
         bot_x, bot_y = bot_state["x"], bot_state["y"]
-        res = []
+
+        # Find cookers that have pans on them (ready to use for cooking)
+        cookers_with_pans = []
         for x, y in self.cooker_pos:
             tile = controller.get_tile(controller.get_team(), x, y)
             item = controller.item_to_public_dict(tile.item)
             if item and item.get("type") == "Pan":
-                res.append((x, y))
-        if not res:
-            # Fallback to first stove if none are empty
+                cookers_with_pans.append((x, y))
+
+        if not cookers_with_pans:
+            # No cookers with pans, return first cooker as fallback
+            logger(f"Bot {bot_id}: No cookers with pans found")
             return self.cooker_pos[0] if self.cooker_pos else None
-        logger(f"EMPTY COOKER{res}")
-        return self.find_closest(controller, bot_x, bot_y, res)
+
+        # Filter to only reachable cookers (can path to Chebyshev distance <= 1)
+        reachable_cookers = []
+        for cx, cy in cookers_with_pans:
+            # Check if we can reach an adjacent position (Chebyshev distance <= 1)
+            def is_adjacent_to_cooker(x, y, tile):
+                return max(abs(x - cx), abs(y - cy)) <= 1
+
+            # Use BFS to check if path exists to adjacent position
+            path = self.get_bfs_path_steps(
+                controller, (bot_x, bot_y), is_adjacent_to_cooker
+            )
+            if path is not None:
+                reachable_cookers.append((cx, cy))
+
+        if not reachable_cookers:
+            # No reachable cookers with pans, return closest one anyway
+            logger(f"Bot {bot_id}: No reachable cookers with pans, using closest")
+            return self.find_closest(controller, bot_x, bot_y, cookers_with_pans)
+
+        # Return closest reachable cooker
+        logger(
+            f"Bot {bot_id}: Found {len(reachable_cookers)} reachable cookers with pans"
+        )
+        return self.find_closest(controller, bot_x, bot_y, reachable_cookers)
+
+    def find_cooker_without_a_pan(self, controller: RobotController, bot_id: int):
+        """Find nearest cooker without a pan that is reachable (can path to adjacent position)"""
+        bot_state = controller.get_bot_state(bot_id)
+        if not bot_state:
+            return self.cooker_pos[0] if self.cooker_pos else None
+
+        bot_x, bot_y = bot_state["x"], bot_state["y"]
+
+        # Find cookers without pans (empty or has non-pan item)
+        cookers_without_pans = []
+        for x, y in self.cooker_pos:
+            tile = controller.get_tile(controller.get_team(), x, y)
+            if tile.item is None:
+                # No item at all, definitely no pan
+                cookers_without_pans.append((x, y))
+
+        if not cookers_without_pans:
+            # All cookers have pans, return first cooker as fallback
+            logger(f"Bot {bot_id}: All cookers have pans")
+            return None
+
+        # Filter to only reachable cookers (can path to Chebyshev distance <= 1)
+        reachable_cookers = []
+        for cx, cy in cookers_without_pans:
+            # Check if we can reach an adjacent position (Chebyshev distance <= 1)
+            def is_adjacent_to_cooker(x, y, tile):
+                return max(abs(x - cx), abs(y - cy)) <= 1
+
+            # Use BFS to check if path exists to adjacent position
+            path = self.get_bfs_path_steps(
+                controller, (bot_x, bot_y), is_adjacent_to_cooker
+            )
+            if path is not None:
+                reachable_cookers.append((cx, cy))
+
+        if not reachable_cookers:
+            # No reachable cookers without pans, return closest one anyway
+            logger(f"Bot {bot_id}: No reachable cookers without pans, using closest")
+            return self.find_closest(controller, bot_x, bot_y, cookers_without_pans)
+
+        # Return closest reachable cooker
+        logger(
+            f"Bot {bot_id}: Found {len(reachable_cookers)} reachable cookers without pans"
+        )
+        return self.find_closest(controller, bot_x, bot_y, reachable_cookers)
 
     def find_closest_shop(self, controller: RobotController, bot_id: int):
         """Find closest shop - shops are always accessible"""
@@ -823,9 +901,9 @@ class BotPlayer:
             logger(f"Bot {bot_id} held_item in place_pan: {held_item}")
 
             if held_item and held_item["type"] == "Pan":
-                # Find a cooker to place the pan
-                cooker = self.find_empty_cooker(controller, bot_id)
-                logger(f"Bot {bot_id} found cooker in place_pan: {cooker}")
+                # Find a cooker without a pan to place this pan on
+                cooker = self.find_cooker_without_a_pan(controller, bot_id)
+                logger(f"Bot {bot_id} found cooker without pan in place_pan: {cooker}")
                 if cooker:
                     cx, cy = cooker
                     if self.move_towards(controller, bot_id, cx, cy):
@@ -1085,6 +1163,7 @@ class BotPlayer:
                     self.bot_orders[bot_id] = self.current_order
 
     def bot_turn(self, controller: RobotController, bot_id: int):
+        logger(f"current turn: {controller.get_turn()}")
         past_plate_x, past_plate_y = None, None
         bot_state = controller.get_bot_state(bot_id)
         bx, by = bot_state["x"], bot_state["y"]
@@ -1199,20 +1278,33 @@ class BotPlayer:
             self.bot_orders[bot_id] = self.current_order
 
         if holding and holding.get("type") == "Pan":
+            logger(f"Bot {bot_id}: [PAN] Placing pan")
             self.place_pan(controller, bot_id)
             return
 
+        if self.current_order.order:
+            logger(f"Bot {bot_id}: [CURRENT_ORDER] {self.current_order.order}")
+            logger(f"Bot {bot_id}: [CURRENT_ORDER] {self.current_order.plate_tracker}")
+            logger(
+                f"Bot {bot_id}: [CURRENT_ORDER] {self.current_order.plate_tracker.ing_on_plate}"
+            )
+
         if not self.current_order.order:
+            logger(f"Bot {bot_id}: [ORDER] Getting order")
             self.get_order(
                 controller, bot_id, active_orders, past_plate_x, past_plate_y
             )
         elif self.should_get_plate(controller):
+            logger(f"Bot {bot_id}: [PLATE] Getting plate")
             self.get_plate(controller, bot_id)
         elif self.should_get_pan(controller) and self.smaller_bot_id == bot_id:
+            logger(f"Bot {bot_id}: [PAN] Getting pan")
             self.get_pan(controller, bot_id)
         elif not all(self.current_order.plate_tracker.ing_on_plate):
+            logger(f"Bot {bot_id}: [PREP] Prepping ingredients")
             self.prep_ings(controller, holding, bot_id)
         else:
+            logger(f"Bot {bot_id}: [SUBMIT] Submitting plate")
             self.submit_plate(controller, holding, bot_id)
 
         self.bot_cooking[bot_id] = self.cooking
