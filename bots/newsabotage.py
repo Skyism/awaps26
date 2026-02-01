@@ -8,13 +8,7 @@ from game_constants import FoodType, ShopCosts, Team, TileType
 from item import Food, Pan, Plate
 from robot_controller import RobotController
 
-# python src/game.py --red bots/goon.py --blue bots/goon.py --map maps/map1.txt --render
-
-# python src/game.py --red bots/duo_noodle_bot.py --blue bots/goon.py --map maps/map1.txt --replay replay_path.json
-
-# ENABLE_LOGGING=1 python src/game.py --red bots/samplegoon1.py --blue bots/submittedbot.py --map maps/v1.txt  --render --timeout 2.5
-
-# ENABLE_LOGGING=1 python src/game.py --red bots/samplegoon1.py --blue bots/submittedbot.py --map maps/v1.txt  --render --timeout 2.5
+# ENABLE_LOGGING=1 python src/game.py --red bots/newsabotage.py --blue bots/submittedbot.py --map maps/v1.txt  --render --timeout 2.5
 
 
 LOGGING_ENABLED = os.environ.get("ENABLE_LOGGING", "0") == "1"
@@ -92,6 +86,11 @@ class BotPlayer:
         self.turn_map = None
         self.bot_orders = {}
         self.order_claims = {}
+        self.bot_workload = {}  # {bot_id: estimated_turns_until_free}
+
+        # NEW: Track sabotage state to handle switch transitions cleanly
+        self.bot_in_sabotage = {}  # {bot_id: bool} - track if bot is currently sabotaging
+        self.bot_returned_from_sabotage = {}  # {bot_id: bool} - track if bot just returned
 
         if LOGGING_ENABLED:
             open("tmp/goon.txt", "w").close()
@@ -117,29 +116,6 @@ class BotPlayer:
                     self.cooker_pos.append((x, y))
                 elif tile_name == "COUNTER":
                     self.all_counters.append((x, y))
-
-        # # Assign counters to different purposes
-        # if len(self.all_counters) >= 3:
-        #     self.chopping_counter = self.all_counters[0]
-        #     self.staging_counter = self.all_counters[1]
-        #     self.assembly_counter = self.all_counters[2]
-        # elif len(self.all_counters) >= 2:
-        #     self.chopping_counter = self.all_counters[0]
-        #     self.staging_counter = self.all_counters[1]
-        #     self.assembly_counter = self.all_counters[1]  # Reuse staging for assembly
-        # elif len(self.all_counters) >= 1:
-        #     # Fallback: use same counter for all (will have issues)
-        #     self.chopping_counter = self.all_counters[0]
-        #     self.staging_counter = self.all_counters[0]
-        #     self.assembly_counter = self.all_counters[0]
-
-        # # Debug: log counter assignments
-        # if LOGGING_ENABLED:
-        #     with safe_open('/tmp/counter_debug.txt', 'w') as f:
-        #         f.write(f"All counters found: {self.all_counters}\n")
-        #         f.write(f"Chopping counter: {self.chopping_counter}\n")
-        #         f.write(f"Staging counter: {self.staging_counter}\n")
-        #         f.write(f"Assembly counter: {self.assembly_counter}\n")
 
         logger(f"self.cooker_pos: {self.cooker_pos}")
         logger(f"self.shop_pos: {self.shop_pos}")
@@ -366,6 +342,37 @@ class BotPlayer:
     def _release_order_claim(self, order_id: int, bot_id: int):
         if self.order_claims.get(order_id) == bot_id:
             del self.order_claims[order_id]
+
+    # NEW: Clear all bot state when entering sabotage
+    def _clear_bot_state_for_sabotage(self, bot_id: int):
+        """
+        Clear all order-related state when entering sabotage mode.
+        Accept that in-progress orders and resources are lost (sunk cost).
+        This prevents getting stuck trying to cleanup unreachable items.
+        """
+        logger(f"Bot {bot_id}: [SABOTAGE CLEAR] Clearing all order state for sabotage")
+
+        # Release order claim
+        if self.bot_orders.get(bot_id) and self.bot_orders[bot_id].order:
+            order_id = self.bot_orders[bot_id].order.get("order_id")
+            if order_id:
+                self._release_order_claim(order_id, bot_id)
+                logger(f"Bot {bot_id}: [SABOTAGE CLEAR] Released order claim {order_id}")
+
+        # Clear order state
+        self.bot_orders[bot_id] = ActiveOrder()
+        self.current_order = ActiveOrder()
+
+        # Clear cooking/chopping state
+        self.bot_cooking[bot_id] = None
+        self.bot_chopping[bot_id] = None
+        self.cooking = None
+        self.chopping = None
+
+        # Reset workload to 0 (we're not working on orders during sabotage)
+        self.bot_workload[bot_id] = 0
+
+        logger(f"Bot {bot_id}: [SABOTAGE CLEAR] State cleared successfully")
 
     # todo add stove logic
     def find_closest(self, controller, bot_x, bot_y, list_of_coordinates):
@@ -599,13 +606,21 @@ class BotPlayer:
                 self.current_order.order = best_order
                 self.current_order.required = self.current_order.order["required"]
                 plate_tracker = PlateTracker(self.current_order.required)
-                if plate_x is not None and plate_y is not None:
+                # NEW: Don't reuse plate positions when returning from sabotage
+                # Items on counters from before sabotage are likely gone/moved
+                if plate_x is not None and plate_y is not None and not self.bot_returned_from_sabotage.get(bot_id, False):
                     plate_tracker.plate_pos = (plate_x, plate_y)
                 self.current_order.plate_tracker = plate_tracker
                 self.current_order.stove_pos = None
 
+                # Track bot workload for load balancing
+                time_estimate = self._estimate_order_time(
+                    best_order, controller, bot_id
+                )
+                self.bot_workload[bot_id] = time_estimate
+
                 logger(
-                    f"Bot {bot_id}: Selected order {order_id} with score {best_score:.2f}"
+                    f"Bot {bot_id}: Selected order {order_id} with score {best_score:.2f}, workload={time_estimate}"
                 )
                 return True
 
@@ -706,13 +721,12 @@ class BotPlayer:
                 )
                 time_needed += 5  # buffer
 
-        # Check profitability using reward per turn
+        # Check profitability - order must be profitable with safety margin
         # Penalty only applies if order expires, not if we complete it
-        # Check basic profitability - order must make profit (cost < reward)
-        # Don't reject based on reward_per_turn ratio - let scoring prioritize
-        if ing_costs >= order["reward"]:
+        PROFIT_MARGIN = 50  # Don't take orders with <$50 profit
+        if ing_costs >= order["reward"] - PROFIT_MARGIN:
             logger(
-                f"Bot {bot_id}: Order {order['order_id']} rejected - unprofitable (cost={ing_costs}, reward={order['reward']})"
+                f"Bot {bot_id}: Order {order['order_id']} rejected - unprofitable (cost={ing_costs}, reward={order['reward']}, margin={PROFIT_MARGIN})"
             )
             return False
 
@@ -854,12 +868,24 @@ class BotPlayer:
         else:
             urgency = 1.0
 
-        # Final score: reward per turn * urgency
-        score = value_per_turn * urgency
+        # Complexity penalty: more ingredients = harder to coordinate
+        num_ingredients = len(order["required"])
+        complexity_factor = 1.0 / (
+            1.0 + (num_ingredients - 2) * 0.1
+        )  # Slight penalty for complexity
+
+        # Workload balancing: prefer orders for less-busy bot
+        current_workload = self.bot_workload.get(bot_id, 0)
+        workload_penalty = 1.0 / (
+            1.0 + current_workload / 50.0
+        )  # Slight penalty if busy
+
+        # Final score
+        score = value_per_turn * urgency * complexity_factor * workload_penalty
 
         logger(
             f"Bot {bot_id}: Order {order['order_id']} score={score:.2f} "
-            f"(reward_per_turn={value_per_turn:.2f}, urgency={urgency:.2f})"
+            f"(value={value_per_turn:.2f}, urgency={urgency:.2f}, complexity={complexity_factor:.2f}, workload={workload_penalty:.2f})"
         )
 
         return score
@@ -1332,82 +1358,114 @@ class BotPlayer:
         with safe_open("tmp/holding.txt", "a") as f:
             f.write(f"Bot is at ({bx}, {by}) and holding {(holding)}\n")
 
+        # NEW: Only decrement workload if NOT in sabotage mode
+        # This prevents workload from going to 0 during sabotage when no actual work is being done
+        switch_info = controller.get_switch_info()
+        if bot_id in self.bot_workload and not (switch_info and switch_info.get("my_team_switched")):
+            self.bot_workload[bot_id] = max(0, self.bot_workload[bot_id] - 1)
+
         if not self.initialized:
             self._initialize_locations(controller)
             self.initialized = True
 
         self.smaller_bot_id = min(self.smaller_bot_id, bot_id)
 
-        # switch_info = controller.get_switch_info()
+        # If is switched
+        logger(f"Bot {bot_id}: Switch info: {switch_info}")
 
-        # # If is switched
-        # logger(f"Bot {bot_id}: Switch info: {switch_info}")
+        if switch_info and switch_info.get("my_team_switched"):
+            # NEW: On first turn of sabotage, clear all order state
+            if not self.bot_in_sabotage.get(bot_id, False):
+                logger(f"Bot {bot_id}: [SABOTAGE] First sabotage turn, clearing state")
+                self._clear_bot_state_for_sabotage(bot_id)
+                self.bot_in_sabotage[bot_id] = True
+                self.bot_returned_from_sabotage[bot_id] = False
 
-        # if switch_info and switch_info.get("my_team_switched"):
-        #     # Run switched sabotage logic
-        #     logger(
-        #         f"Bot {bot_id}: [SWITCH CHECK] my_team_switched=True, entering sabotage mode"
-        #     )
-        #     self.run_sabotage(controller, bot_id)
-        #     return
-        # elif (
-        #     switch_info
-        #     and switch_info.get("window_active")
-        #     and switch_info.get("turn") >= (switch_info.get("window_end_turn") - 35)
-        # ):
-        #     # Prepare for switch - actively clear hands by trashing/placing items
-        #     logger(
-        #         f"Bot {bot_id}: [SWITCH PREP] Preparing to switch. Holding: {holding}"
-        #     )
+            # Run switched sabotage logic
+            logger(
+                f"Bot {bot_id}: [SWITCH CHECK] my_team_switched=True, entering sabotage mode"
+            )
+            self.run_sabotage(controller, bot_id)
+            return
+        elif self.bot_in_sabotage.get(bot_id, False):
+            # NEW: Bot just returned from sabotage - mark it and clear sabotage flag
+            logger(f"Bot {bot_id}: [SABOTAGE] Returned from sabotage, marking state")
+            self.bot_in_sabotage[bot_id] = False
+            self.bot_returned_from_sabotage[bot_id] = True
+            # Clear any stale order state just in case
+            if self.bot_orders.get(bot_id):
+                order = self.bot_orders[bot_id].order
+                if order:
+                    self._release_order_claim(order.get("order_id"), bot_id)
+            self.bot_orders[bot_id] = ActiveOrder()
+            self.current_order = ActiveOrder()
+            logger(f"Bot {bot_id}: [SABOTAGE] Ready to start fresh work")
+        elif (
+            switch_info
+            and switch_info.get("window_active")
+            and switch_info.get("turn") >= (switch_info.get("window_end_turn") - 35)
+        ):
+            # Prepare for switch - actively clear hands by trashing/placing items
+            logger(
+                f"Bot {bot_id}: [SWITCH PREP] Preparing to switch. Holding: {holding}"
+            )
 
-        #     if holding is not None:
-        #         # Actively trash or place the item to clear hands
-        #         held_type = holding.get("type")
+            # NEW: Release order claims and clear state when preparing to switch
+            if self.bot_orders.get(bot_id) and self.bot_orders[bot_id].order:
+                order_id = self.bot_orders[bot_id].order.get("order_id")
+                if order_id:
+                    logger(f"Bot {bot_id}: [SWITCH PREP] Releasing order claim {order_id} before switch")
+                    self._release_order_claim(order_id, bot_id)
+                    self.bot_orders[bot_id] = ActiveOrder()
 
-        #         # Try to trash it
-        #         if self.trash_pos:
-        #             tx, ty = self.trash_pos[0]
-        #             logger(
-        #                 f"Bot {bot_id}: [SWITCH PREP] Trashing {held_type} to clear hands"
-        #             )
-        #             if self.move_towards(controller, bot_id, tx, ty):
-        #                 if controller.trash(bot_id, tx, ty):
-        #                     logger(
-        #                         f"Bot {bot_id}: [SWITCH PREP] Successfully trashed item!"
-        #                     )
-        #                     self.ready_for_sabotage[bot_id] = True
-        #                 else:
-        #                     logger(
-        #                         f"Bot {bot_id}: [SWITCH PREP] Failed to trash, trying next turn"
-        #                     )
-        #                     self.ready_for_sabotage[bot_id] = False
-        #             else:
-        #                 logger(f"Bot {bot_id}: [SWITCH PREP] Moving towards trash")
-        #                 self.ready_for_sabotage[bot_id] = False
-        #             return
-        #         else:
-        #             logger(
-        #                 f"Bot {bot_id}: [SWITCH PREP] No trash found, marking not ready"
-        #             )
-        #             self.ready_for_sabotage[bot_id] = False
-        #             return
-        #     else:
-        #         # Hands are clear, mark ready
-        #         self.ready_for_sabotage[bot_id] = True
-        #         logger(f"Bot {bot_id}: [SWITCH PREP] Hands clear, ready to switch")
+            if holding is not None:
+                # Actively trash or place the item to clear hands
+                held_type = holding.get("type")
 
-        #     # Check if both bots are ready
-        #     if sum([1 for v in self.ready_for_sabotage if v]) >= 2:
-        #         # Both bots are ready, switch now
-        #         logger(f"Bot {bot_id}: [SWITCH CHECK] Both bots ready, switching maps!")
-        #         controller.switch_maps()
-        #         logger(f"Bot {bot_id}: [SWITCH] Successfully switched maps!")
-        #         return
-        #     else:
-        #         logger(
-        #             f"Bot {bot_id}: [SWITCH CHECK] Waiting for other bot to clear hands. Ready: {self.ready_for_sabotage}"
-        #         )
-        #         return
+                # Try to trash it
+                if self.trash_pos:
+                    tx, ty = self.trash_pos[0]
+                    logger(
+                        f"Bot {bot_id}: [SWITCH PREP] Trashing {held_type} to clear hands"
+                    )
+                    if self.move_towards(controller, bot_id, tx, ty):
+                        if controller.trash(bot_id, tx, ty):
+                            logger(
+                                f"Bot {bot_id}: [SWITCH PREP] Successfully trashed item!"
+                            )
+                            self.ready_for_sabotage[bot_id] = True
+                        else:
+                            logger(
+                                f"Bot {bot_id}: [SWITCH PREP] Failed to trash, trying next turn"
+                            )
+                            self.ready_for_sabotage[bot_id] = False
+                    else:
+                        logger(f"Bot {bot_id}: [SWITCH PREP] Moving towards trash")
+                        self.ready_for_sabotage[bot_id] = False
+                    return
+                else:
+                    logger(
+                        f"Bot {bot_id}: [SWITCH PREP] No trash found, marking not ready"
+                    )
+                    self.ready_for_sabotage[bot_id] = False
+                    return
+            else:
+                # Hands are clear, mark ready
+                self.ready_for_sabotage[bot_id] = True
+                logger(f"Bot {bot_id}: [SWITCH PREP] Hands clear, ready to switch")
+
+            # Check if both bots are ready
+            if sum([1 for v in self.ready_for_sabotage if v]) >= 2:
+                # Both bots are ready, switch now
+                logger(f"Bot {bot_id}: [SWITCH CHECK] Both bots ready, switching maps!")
+                controller.switch_maps()
+                logger(f"Bot {bot_id}: [SWITCH] Successfully switched maps!")
+                return
+            else:
+                logger(
+                    f"Bot {bot_id}: [SWITCH CHECK] Waiting for other bot to clear hands. Ready: {self.ready_for_sabotage}"
+                )
+                return
 
         # Initialize bot-specific claimed locations if not done yet
         if bot_id not in self.bot_selected_locations:
@@ -1426,17 +1484,27 @@ class BotPlayer:
             and self.current_order.order.get("order_id") not in active_order_ids
         ):
             self._release_order_claim(self.current_order.order["order_id"], bot_id)
-            if not self._cleanup_expired_order_ingredients(controller, bot_id):
-                return
-            if (
-                self.current_order.plate_tracker
-                and self.current_order.plate_tracker.plate_pos
-            ):
-                past_plate_x, past_plate_y = self.current_order.plate_tracker.plate_pos
+
+            # NEW: Skip cleanup if we just returned from sabotage
+            # Items from before sabotage are likely gone/unreachable
+            if not self.bot_returned_from_sabotage.get(bot_id, False):
+                if not self._cleanup_expired_order_ingredients(controller, bot_id):
+                    return
+                if (
+                    self.current_order.plate_tracker
+                    and self.current_order.plate_tracker.plate_pos
+                ):
+                    past_plate_x, past_plate_y = self.current_order.plate_tracker.plate_pos
+                else:
+                    past_plate_x, past_plate_y = None, None
             else:
+                logger(f"Bot {bot_id}: Skipping cleanup - just returned from sabotage, items likely unreachable")
                 past_plate_x, past_plate_y = None, None
+
             self.current_order = ActiveOrder()
             self.bot_orders[bot_id] = self.current_order
+            # Clear the returned flag after first order claim
+            self.bot_returned_from_sabotage[bot_id] = False
 
         if holding and holding.get("type") == "Pan":
             logger(f"Bot {bot_id}: [PAN] Placing pan")

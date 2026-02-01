@@ -22066,3 +22066,4202 @@ holding value: {'type': 'Plate', 'dirty': False, 'food': []}
 held_item: {'type': 'Plate', 'dirty': False, 'food': []}
 Bot is holding a plate, trying to place it
 Placed plate at (2, 16)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 14, 'y': 4, 'team_money': 152, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 7, 'y': 1, 'team_money': 152, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 13, 'y': 3, 'team_money': 153, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 8, 'y': 2, 'team_money': 153, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 12, 'y': 4, 'team_money': 154, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 9, 'y': 3, 'team_money': 154, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (10, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 11, 'y': 3, 'team_money': 153, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (10, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 9, 'y': 3, 'team_money': 151, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 11, 'y': 3, 'team_money': 152, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 8, 'y': 3, 'team_money': 152, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 11, 'y': 2, 'team_money': 153, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 10, 'y': 1, 'team_money': 154, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 1, 'team_money': 115, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 2, 'team_money': 116, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 3, 'team_money': 117, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 4)
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 3, 'team_money': 118, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 3, 'team_money': 39, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 4, 'team_money': 40, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+Purchased pan at (10, 4)
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 3, 'team_money': 45, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 2, 'team_money': 46, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 1, 'team_money': 47, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 1, 'team_money': 48, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 1, 'team_money': 49, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 2, 'team_money': 50, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 3, 'team_money': 51, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 4, 'team_money': 52, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+Purchased pan at (10, 4)
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 3, 'team_money': 53, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 2, 'team_money': 54, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 2, 'team_money': 55, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 3, 'team_money': 56, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+Purchased pan at (10, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 13, 'y': 15, 'team_money': 161, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 14, 'y': 15, 'team_money': 162, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 15, 'y': 14, 'team_money': 163, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 14, 'y': 13, 'team_money': 164, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 13, 'y': 12, 'team_money': 165, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 12, 'y': 11, 'team_money': 166, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 11, 'y': 10, 'team_money': 167, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 10, 'y': 9, 'team_money': 168, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 9, 'team_money': 169, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 9, 'team_money': 168, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 8, 'team_money': 169, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 8, 'team_money': 170, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 171, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 12, 'y': 14, 'team_money': 149, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 11, 'y': 14, 'team_money': 150, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 10, 'y': 13, 'team_money': 151, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 9, 'y': 12, 'team_money': 142, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 8, 'y': 12, 'team_money': 143, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 7, 'y': 11, 'team_money': 144, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 7, 'y': 11, 'team_money': 143, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 188, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 189, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 190, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 8, 'team_money': 191, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 192, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 191, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 235, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 236, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 237, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 8, 'team_money': 238, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 239, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 238, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 337, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 338, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 339, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 8, 'team_money': 340, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 341, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 340, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 5, 'y': 7, 'team_money': 284, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 6, 'y': 7, 'team_money': 411, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 7, 'y': 8, 'team_money': 412, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 8, 'y': 9, 'team_money': 413, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 8, 'y': 9, 'team_money': 412, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 375, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 376, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 377, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 8, 'team_money': 378, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 379, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 378, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 18, 'y': 8, 'team_money': 430, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 17, 'y': 7, 'team_money': 431, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 16, 'y': 6, 'team_money': 432, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 15, 'y': 5, 'team_money': 433, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 14, 'y': 4, 'team_money': 434, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 13, 'y': 4, 'team_money': 435, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 12, 'y': 5, 'team_money': 436, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 11, 'y': 6, 'team_money': 437, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 10, 'y': 7, 'team_money': 438, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 9, 'y': 8, 'team_money': 439, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 8, 'y': 9, 'team_money': 406, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 8, 'y': 9, 'team_money': 405, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 13, 'y': 15, 'team_money': 161, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 14, 'y': 14, 'team_money': 162, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 13, 'y': 13, 'team_money': 163, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 12, 'y': 12, 'team_money': 164, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 11, 'y': 11, 'team_money': 165, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 10, 'y': 10, 'team_money': 166, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 167, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 166, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 167, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 12, 'y': 14, 'team_money': 213, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 11, 'y': 13, 'team_money': 214, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 10, 'y': 12, 'team_money': 215, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 9, 'y': 12, 'team_money': 216, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 12, 'team_money': 217, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 11, 'team_money': 218, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 11, 'team_money': 217, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 188, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 189, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 190, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 189, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 235, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 236, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 237, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 236, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 337, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 338, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 339, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 338, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 410, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 411, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 412, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 411, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 3, 'y': 6, 'team_money': 375, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 4, 'y': 6, 'team_money': 376, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 377, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 6, 'y': 7, 'team_money': 378, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 8, 'team_money': 379, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 554, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 553, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 14, 'y': 8, 'team_money': 370, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 13, 'y': 9, 'team_money': 371, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 12, 'y': 10, 'team_money': 372, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 11, 'y': 9, 'team_money': 373, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 10, 'y': 8, 'team_money': 374, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 375, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 374, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 8, 'team_money': 375, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 376, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 13, 'y': 15, 'team_money': 161, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 14, 'y': 14, 'team_money': 162, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 13, 'y': 13, 'team_money': 163, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 12, 'y': 12, 'team_money': 164, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 11, 'y': 11, 'team_money': 165, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 10, 'y': 10, 'team_money': 166, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 167, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 166, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 167, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 12, 'y': 14, 'team_money': 213, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 11, 'y': 13, 'team_money': 214, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 10, 'y': 12, 'team_money': 215, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 9, 'y': 12, 'team_money': 216, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 12, 'team_money': 217, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 11, 'team_money': 218, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 11, 'team_money': 217, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 188, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 189, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 190, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 189, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 235, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 236, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 237, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 236, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 337, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 338, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 339, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 338, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 410, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 411, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 412, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 411, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 3, 'y': 6, 'team_money': 375, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 4, 'y': 6, 'team_money': 376, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 377, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 6, 'y': 7, 'team_money': 378, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 8, 'team_money': 379, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 554, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 553, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 14, 'y': 8, 'team_money': 370, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 13, 'y': 9, 'team_money': 371, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 12, 'y': 10, 'team_money': 372, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 11, 'y': 9, 'team_money': 373, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 10, 'y': 8, 'team_money': 374, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 375, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 374, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 8, 'team_money': 375, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 376, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 13, 'y': 15, 'team_money': 161, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 14, 'y': 14, 'team_money': 162, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 13, 'y': 13, 'team_money': 163, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 12, 'y': 12, 'team_money': 164, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 11, 'y': 11, 'team_money': 165, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 10, 'y': 10, 'team_money': 166, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 167, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 166, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 167, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 12, 'y': 14, 'team_money': 213, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 11, 'y': 13, 'team_money': 214, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 10, 'y': 12, 'team_money': 215, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 9, 'y': 12, 'team_money': 216, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 12, 'team_money': 217, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 11, 'team_money': 218, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 11, 'team_money': 217, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 188, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 189, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 190, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 189, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 235, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 236, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 237, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 236, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 337, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 338, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 339, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 338, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 410, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 411, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 412, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 411, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 3, 'y': 6, 'team_money': 375, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 4, 'y': 6, 'team_money': 376, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 377, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 6, 'y': 7, 'team_money': 378, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 8, 'team_money': 379, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 554, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 553, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 14, 'y': 8, 'team_money': 370, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 13, 'y': 9, 'team_money': 371, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 12, 'y': 10, 'team_money': 372, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 11, 'y': 9, 'team_money': 373, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 10, 'y': 8, 'team_money': 374, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 375, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 374, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 8, 'team_money': 375, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 376, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 13, 'y': 15, 'team_money': 161, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 13, 'y': 15, 'team_money': 161, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 14, 'y': 14, 'team_money': 162, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 14, 'y': 15, 'team_money': 162, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 13, 'y': 13, 'team_money': 163, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 15, 'y': 14, 'team_money': 163, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 12, 'y': 12, 'team_money': 164, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 14, 'y': 13, 'team_money': 164, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 11, 'y': 11, 'team_money': 165, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 13, 'y': 12, 'team_money': 165, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 10, 'y': 10, 'team_money': 166, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 12, 'y': 11, 'team_money': 166, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 167, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 11, 'y': 10, 'team_money': 167, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 166, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 10, 'y': 9, 'team_money': 168, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 167, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 9, 'team_money': 169, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 9, 'team_money': 168, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 8, 'team_money': 169, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 8, 'team_money': 170, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 171, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 12, 'y': 14, 'team_money': 213, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 12, 'y': 14, 'team_money': 149, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 11, 'y': 13, 'team_money': 214, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 11, 'y': 14, 'team_money': 150, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 10, 'y': 12, 'team_money': 215, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 10, 'y': 13, 'team_money': 151, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 9, 'y': 12, 'team_money': 216, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 9, 'y': 12, 'team_money': 142, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 12, 'team_money': 217, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 8, 'y': 12, 'team_money': 143, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 11, 'team_money': 218, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 7, 'y': 11, 'team_money': 144, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 11, 'team_money': 217, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 7, 'y': 11, 'team_money': 143, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 13, 'y': 15, 'team_money': 161, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 13, 'y': 15, 'team_money': 161, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 14, 'y': 14, 'team_money': 162, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 14, 'y': 15, 'team_money': 162, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 13, 'y': 13, 'team_money': 163, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 15, 'y': 14, 'team_money': 163, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 12, 'y': 12, 'team_money': 164, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 14, 'y': 13, 'team_money': 164, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 11, 'y': 11, 'team_money': 165, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 13, 'y': 12, 'team_money': 165, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 10, 'y': 10, 'team_money': 166, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 12, 'y': 11, 'team_money': 166, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 167, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 11, 'y': 10, 'team_money': 167, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 166, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 10, 'y': 9, 'team_money': 168, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 167, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 9, 'team_money': 169, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 9, 'team_money': 168, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 8, 'team_money': 169, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 8, 'team_money': 170, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 171, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 12, 'y': 14, 'team_money': 213, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 12, 'y': 14, 'team_money': 149, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 11, 'y': 13, 'team_money': 214, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 11, 'y': 14, 'team_money': 150, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 10, 'y': 12, 'team_money': 215, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 10, 'y': 13, 'team_money': 151, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 9, 'y': 12, 'team_money': 216, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 9, 'y': 12, 'team_money': 142, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 12, 'team_money': 217, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 8, 'y': 12, 'team_money': 143, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 11, 'team_money': 218, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 7, 'y': 11, 'team_money': 144, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 11, 'team_money': 217, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 7, 'y': 11, 'team_money': 143, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 188, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 188, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 189, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 189, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 190, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 190, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 189, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 191, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 192, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 191, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 235, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 235, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 236, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 236, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 237, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 237, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 236, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 238, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 239, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 238, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 337, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 337, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 338, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 338, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 339, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 339, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 338, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 340, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 341, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 340, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 410, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 411, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 412, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 411, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 3, 'y': 6, 'team_money': 375, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 437, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 4, 'y': 6, 'team_money': 376, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 438, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 377, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 439, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 6, 'y': 7, 'team_money': 378, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 440, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 8, 'team_money': 379, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 441, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 554, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 440, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 553, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 564, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 7, 'team_money': 565, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 8, 'team_money': 566, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 567, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 566, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 5, 'y': 5, 'team_money': 496, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 421, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 4, 'y': 6, 'team_money': 497, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 422, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 498, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 423, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 499, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 424, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 500, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 425, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 499, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 424, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 13, 'y': 15, 'team_money': 161, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 13, 'y': 15, 'team_money': 161, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 14, 'y': 14, 'team_money': 162, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 14, 'y': 15, 'team_money': 162, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 13, 'y': 13, 'team_money': 163, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 15, 'y': 14, 'team_money': 163, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 12, 'y': 12, 'team_money': 164, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 14, 'y': 13, 'team_money': 164, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 11, 'y': 11, 'team_money': 165, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 13, 'y': 12, 'team_money': 165, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 10, 'y': 10, 'team_money': 166, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 12, 'y': 11, 'team_money': 166, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 167, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 11, 'y': 10, 'team_money': 167, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 166, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 10, 'y': 9, 'team_money': 168, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 167, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 9, 'team_money': 169, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 9, 'team_money': 168, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 8, 'team_money': 169, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 8, 'team_money': 170, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 171, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 12, 'y': 14, 'team_money': 213, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 12, 'y': 14, 'team_money': 149, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 11, 'y': 13, 'team_money': 214, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 11, 'y': 14, 'team_money': 150, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 10, 'y': 12, 'team_money': 215, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 10, 'y': 13, 'team_money': 151, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 9, 'y': 12, 'team_money': 216, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 9, 'y': 12, 'team_money': 142, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 12, 'team_money': 217, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 8, 'y': 12, 'team_money': 143, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 11, 'team_money': 218, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 7, 'y': 11, 'team_money': 144, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 11, 'team_money': 217, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 7, 'y': 11, 'team_money': 143, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 188, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 188, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 189, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 189, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 190, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 190, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 189, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 191, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 192, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 191, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 235, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 235, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 236, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 236, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 237, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 237, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 236, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 238, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 239, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 238, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 337, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 337, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 338, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 338, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 339, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 339, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 338, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 340, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 341, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 340, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 410, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 411, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 412, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 411, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 3, 'y': 6, 'team_money': 375, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 437, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 4, 'y': 6, 'team_money': 376, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 438, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 377, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 439, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 6, 'y': 7, 'team_money': 378, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 440, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 8, 'team_money': 379, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 441, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 554, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 440, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 553, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 564, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 7, 'team_money': 565, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 8, 'team_money': 566, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 567, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 566, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 5, 'y': 5, 'team_money': 496, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 421, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 4, 'y': 6, 'team_money': 497, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 422, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 498, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 423, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 499, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 424, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 500, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 425, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 499, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 424, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 13, 'y': 15, 'team_money': 161, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 13, 'y': 15, 'team_money': 161, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 14, 'y': 14, 'team_money': 162, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 14, 'y': 15, 'team_money': 162, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 13, 'y': 13, 'team_money': 163, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 15, 'y': 14, 'team_money': 163, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 12, 'y': 12, 'team_money': 164, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 14, 'y': 13, 'team_money': 164, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 11, 'y': 11, 'team_money': 165, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 13, 'y': 12, 'team_money': 165, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 10, 'y': 10, 'team_money': 166, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 12, 'y': 11, 'team_money': 166, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 167, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 11, 'y': 10, 'team_money': 167, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 166, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 10, 'y': 9, 'team_money': 168, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 167, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 9, 'team_money': 169, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 9, 'team_money': 168, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 8, 'team_money': 169, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 8, 'team_money': 170, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 171, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 12, 'y': 14, 'team_money': 213, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 12, 'y': 14, 'team_money': 149, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 11, 'y': 13, 'team_money': 214, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 11, 'y': 14, 'team_money': 150, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 10, 'y': 12, 'team_money': 215, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 10, 'y': 13, 'team_money': 151, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 9, 'y': 12, 'team_money': 216, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 9, 'y': 12, 'team_money': 142, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 12, 'team_money': 217, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 8, 'y': 12, 'team_money': 143, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 11, 'team_money': 218, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 7, 'y': 11, 'team_money': 144, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 11, 'team_money': 217, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 7, 'y': 11, 'team_money': 143, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 188, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 188, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 189, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 189, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 190, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 190, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 189, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 191, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 192, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 191, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 235, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 235, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 236, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 236, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 237, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 237, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 236, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 238, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 239, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 238, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 337, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 337, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 338, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 338, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 339, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 339, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 338, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 340, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 341, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 340, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 410, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 411, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 412, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 411, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 3, 'y': 6, 'team_money': 375, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 437, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 4, 'y': 6, 'team_money': 376, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 438, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 377, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 439, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 6, 'y': 7, 'team_money': 378, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 440, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 8, 'team_money': 379, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 441, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 554, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 440, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 553, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 487, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 487, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 7, 'team_money': 488, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 488, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 8, 'team_money': 626, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 489, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 627, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 490, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 626, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 491, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 490, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 574, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 7, 'team_money': 575, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 8, 'team_money': 576, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 577, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 576, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 5, 'y': 5, 'team_money': 506, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 431, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 4, 'y': 6, 'team_money': 507, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 432, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 508, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 433, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 509, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 434, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 510, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 435, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 509, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 434, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 14, 'y': 4, 'team_money': 152, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 7, 'y': 1, 'team_money': 152, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 13, 'y': 3, 'team_money': 153, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 8, 'y': 2, 'team_money': 153, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 12, 'y': 4, 'team_money': 154, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 9, 'y': 3, 'team_money': 154, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (10, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 11, 'y': 3, 'team_money': 153, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (10, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 9, 'y': 3, 'team_money': 151, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 11, 'y': 3, 'team_money': 152, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 8, 'y': 3, 'team_money': 152, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 11, 'y': 2, 'team_money': 153, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 10, 'y': 1, 'team_money': 154, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 1, 'team_money': 115, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 2, 'team_money': 116, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 3, 'team_money': 117, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 4)
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 3, 'team_money': 118, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 3, 'team_money': 39, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 4, 'team_money': 40, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+Purchased pan at (10, 4)
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 3, 'team_money': 41, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 2, 'team_money': 42, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 3, 'team_money': 43, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 4, 'team_money': 44, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+Purchased pan at (10, 4)
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 3, 'team_money': 46, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 3, 'team_money': 47, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 2, 'team_money': 48, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 2, 'team_money': 49, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 2, 'team_money': 50, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 3, 'team_money': 51, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+Purchased pan at (10, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 13, 'y': 15, 'team_money': 161, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 13, 'y': 15, 'team_money': 161, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 14, 'y': 14, 'team_money': 162, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 14, 'y': 15, 'team_money': 162, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 13, 'y': 13, 'team_money': 163, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 15, 'y': 14, 'team_money': 163, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 12, 'y': 12, 'team_money': 164, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 14, 'y': 13, 'team_money': 164, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 11, 'y': 11, 'team_money': 165, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 13, 'y': 12, 'team_money': 165, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 10, 'y': 10, 'team_money': 166, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 12, 'y': 11, 'team_money': 166, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 167, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 11, 'y': 10, 'team_money': 167, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 9, 'y': 9, 'team_money': 166, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 10, 'y': 9, 'team_money': 168, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 167, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 9, 'team_money': 169, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 9, 'team_money': 168, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 8, 'team_money': 169, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 8, 'team_money': 170, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 171, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 12, 'y': 14, 'team_money': 213, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 12, 'y': 14, 'team_money': 149, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 11, 'y': 13, 'team_money': 214, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 11, 'y': 14, 'team_money': 150, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 10, 'y': 12, 'team_money': 215, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 10, 'y': 13, 'team_money': 151, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 9, 'y': 12, 'team_money': 216, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 9, 'y': 12, 'team_money': 142, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 12, 'team_money': 217, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 8, 'y': 12, 'team_money': 143, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 11, 'team_money': 218, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 7, 'y': 11, 'team_money': 144, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 11, 'team_money': 217, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 7, 'y': 11, 'team_money': 143, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 188, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 188, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 189, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 189, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 190, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 190, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 189, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 191, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 192, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 191, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 235, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 235, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 236, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 236, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 237, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 237, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 236, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 238, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 239, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 238, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 337, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 337, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 338, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 338, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 339, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 339, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 338, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 340, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 341, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 340, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 410, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 411, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 412, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 411, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 3, 'y': 6, 'team_money': 375, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 437, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 4, 'y': 6, 'team_money': 376, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 438, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 377, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 439, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 6, 'y': 7, 'team_money': 378, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 440, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 8, 'team_money': 379, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 441, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 554, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 440, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 553, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 487, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 487, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 7, 'team_money': 488, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 488, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 8, 'team_money': 626, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 489, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 627, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 490, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 626, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 491, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 490, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 574, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 6, 'y': 7, 'team_money': 575, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 7, 'y': 8, 'team_money': 576, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 577, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 2, 'team': 'BLUE', 'x': 8, 'y': 9, 'team_money': 576, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 5, 'y': 5, 'team_money': 506, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 3, 'y': 7, 'team_money': 431, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 4, 'y': 6, 'team_money': 507, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 4, 'y': 8, 'team_money': 432, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 5, 'y': 7, 'team_money': 508, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 8, 'team_money': 433, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 6, 'y': 8, 'team_money': 509, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 9, 'team_money': 434, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 510, 'holding': None, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 435, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (8, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 3, 'team': 'BLUE', 'x': 7, 'y': 9, 'team_money': 509, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'BLUE'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 9, 'team_money': 434, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 10)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 14, 'y': 4, 'team_money': 152, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 7, 'y': 1, 'team_money': 152, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 13, 'y': 3, 'team_money': 153, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 7, 'y': 2, 'team_money': 153, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 12, 'y': 4, 'team_money': 154, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 8, 'y': 3, 'team_money': 154, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 11, 'y': 3, 'team_money': 155, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (10, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 9, 'y': 3, 'team_money': 153, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy plate
+Purchased plate at (10, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 11, 'y': 3, 'team_money': 152, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 9, 'y': 3, 'team_money': 152, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 11, 'y': 2, 'team_money': 153, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (7, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 1, 'team': 'RED', 'x': 8, 'y': 3, 'team_money': 153, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (7, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 10, 'y': 1, 'team_money': 154, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 1, 'team_money': 155, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 2, 'team_money': 116, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Still moving towards counter at (6, 4)
+=== get_plate called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 3, 'team_money': 117, 'holding': {'type': 'Plate', 'dirty': False, 'food': []}, 'map_team': 'RED'}
+holding key exists: True
+holding value: {'type': 'Plate', 'dirty': False, 'food': []}
+held_item: {'type': 'Plate', 'dirty': False, 'food': []}
+Bot is holding a plate, trying to place it
+Placed plate at (6, 4)
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 3, 'team_money': 118, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 2, 'team_money': 119, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 2, 'team_money': 40, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 3, 'team_money': 41, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 4, 'team_money': 42, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+Purchased pan at (10, 4)
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 3, 'team_money': 44, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 2, 'team_money': 45, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 2, 'team_money': 46, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 3, 'team_money': 47, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 4, 'team_money': 48, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+Purchased pan at (10, 4)
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 5, 'y': 3, 'team_money': 50, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 6, 'y': 2, 'team_money': 51, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 7, 'y': 2, 'team_money': 52, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 8, 'y': 3, 'team_money': 53, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+=== get_pan called ===
+bot_state: {'bot_id': 0, 'team': 'RED', 'x': 9, 'y': 4, 'team_money': 54, 'holding': None, 'map_team': 'RED'}
+holding key exists: True
+holding value: None
+Attempting to buy pan
+Purchased pan at (10, 4)
