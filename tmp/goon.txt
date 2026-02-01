@@ -1,0 +1,1510 @@
+self.cooker_pos: [(11, 0), (12, 0), (13, 1), (14, 2), (15, 3), (15, 4)]
+self.shop_pos: [(1, 13)]
+self.submit_pos: [(2, 14)]
+self.trash_pos: [(14, 13)]
+self.all_counters: [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (1, 0), (1, 1), (1, 2), (1, 6), (1, 7), (1, 8), (1, 9), (1, 14), (1, 15), (2, 0), (2, 4), (2, 5), (2, 6), (2, 7), (2, 8), (2, 9), (2, 10), (2, 11), (2, 15), (3, 0), (3, 3), (3, 4), (3, 5), (3, 6), (3, 7), (3, 8), (3, 9), (3, 10), (3, 11), (3, 12), (3, 15), (4, 0), (4, 2), (4, 3), (4, 4), (4, 5), (4, 6), (4, 7), (4, 8), (4, 9), (4, 10), (4, 11), (4, 12), (4, 13), (4, 15), (5, 2), (5, 3), (5, 4), (5, 5), (5, 6), (5, 7), (5, 8), (5, 9), (5, 10), (5, 11), (5, 12), (5, 13), (6, 1), (6, 2), (6, 3), (6, 4), (6, 5), (6, 6), (6, 7), (6, 8), (6, 9), (6, 10), (6, 11), (6, 12), (6, 13), (6, 14), (7, 1), (7, 2), (7, 3), (7, 4), (7, 5), (7, 6), (7, 7), (7, 8), (7, 9), (7, 10), (7, 11), (7, 12), (7, 13), (7, 14), (8, 1), (8, 2), (8, 3), (8, 4), (8, 5), (8, 6), (8, 7), (8, 8), (8, 9), (8, 10), (8, 11), (8, 12), (8, 13), (8, 14), (9, 1), (9, 2), (9, 3), (9, 4), (9, 5), (9, 6), (9, 7), (9, 8), (9, 9), (9, 10), (9, 11), (9, 12), (9, 13), (9, 14), (10, 2), (10, 3), (10, 4), (10, 5), (10, 6), (10, 7), (10, 8), (10, 9), (10, 10), (10, 11), (10, 12), (10, 13), (11, 2), (11, 3), (11, 4), (11, 5), (11, 6), (11, 7), (11, 8), (11, 9), (11, 10), (11, 11), (11, 12), (11, 13), (11, 15), (12, 3), (12, 4), (12, 5), (12, 6), (12, 7), (12, 8), (12, 9), (12, 10), (12, 11), (12, 12), (12, 15), (13, 0), (13, 4), (13, 5), (13, 6), (13, 7), (13, 8), (13, 9), (13, 10), (13, 11), (13, 15), (14, 0), (14, 1), (14, 6), (14, 7), (14, 8), (14, 9), (14, 14), (14, 15), (15, 0), (15, 1), (15, 2), (15, 11), (15, 12), (15, 13), (15, 14), (15, 15)]
+self.cooker_pos: [(11, 0), (12, 0), (13, 1), (14, 2), (15, 3), (15, 4)]
+self.shop_pos: [(1, 13)]
+self.submit_pos: [(2, 14)]
+self.trash_pos: [(14, 13)]
+self.all_counters: [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (1, 0), (1, 1), (1, 2), (1, 6), (1, 7), (1, 8), (1, 9), (1, 14), (1, 15), (2, 0), (2, 4), (2, 5), (2, 6), (2, 7), (2, 8), (2, 9), (2, 10), (2, 11), (2, 15), (3, 0), (3, 3), (3, 4), (3, 5), (3, 6), (3, 7), (3, 8), (3, 9), (3, 10), (3, 11), (3, 12), (3, 15), (4, 0), (4, 2), (4, 3), (4, 4), (4, 5), (4, 6), (4, 7), (4, 8), (4, 9), (4, 10), (4, 11), (4, 12), (4, 13), (4, 15), (5, 2), (5, 3), (5, 4), (5, 5), (5, 6), (5, 7), (5, 8), (5, 9), (5, 10), (5, 11), (5, 12), (5, 13), (6, 1), (6, 2), (6, 3), (6, 4), (6, 5), (6, 6), (6, 7), (6, 8), (6, 9), (6, 10), (6, 11), (6, 12), (6, 13), (6, 14), (7, 1), (7, 2), (7, 3), (7, 4), (7, 5), (7, 6), (7, 7), (7, 8), (7, 9), (7, 10), (7, 11), (7, 12), (7, 13), (7, 14), (8, 1), (8, 2), (8, 3), (8, 4), (8, 5), (8, 6), (8, 7), (8, 8), (8, 9), (8, 10), (8, 11), (8, 12), (8, 13), (8, 14), (9, 1), (9, 2), (9, 3), (9, 4), (9, 5), (9, 6), (9, 7), (9, 8), (9, 9), (9, 10), (9, 11), (9, 12), (9, 13), (9, 14), (10, 2), (10, 3), (10, 4), (10, 5), (10, 6), (10, 7), (10, 8), (10, 9), (10, 10), (10, 11), (10, 12), (10, 13), (11, 2), (11, 3), (11, 4), (11, 5), (11, 6), (11, 7), (11, 8), (11, 9), (11, 10), (11, 11), (11, 12), (11, 13), (11, 15), (12, 3), (12, 4), (12, 5), (12, 6), (12, 7), (12, 8), (12, 9), (12, 10), (12, 11), (12, 12), (12, 15), (13, 0), (13, 4), (13, 5), (13, 6), (13, 7), (13, 8), (13, 9), (13, 10), (13, 11), (13, 15), (14, 0), (14, 1), (14, 6), (14, 7), (14, 8), (14, 9), (14, 14), (14, 15), (15, 0), (15, 1), (15, 2), (15, 11), (15, 12), (15, 13), (15, 14), (15, 15)]
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3750>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800100>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ac0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ee0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1178001b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3800>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3750>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ee0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800100>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ac0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ee0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800100>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ac0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ee0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800100>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ac0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ee0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800100>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ac0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ee0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800100>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ac0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ee0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800100>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ac0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ee0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800100>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ac0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ee0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800100>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ac0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ee0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800100>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ac0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3ee0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800100>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}}
+Stove tile: <tiles.Cooker object at 0x1028f3ac0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'NOODLES', 'food_id': 3, 'chopped': False, 'cooked_stage': 0}
+No more cooking needed for {'type': 'Food', 'food_name': 'NOODLES', 'food_id': 3, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Ingredient needs chopping {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': False, 'cooked_stage': 0}, False
+Stove tile: <tiles.Cooker object at 0x117800050>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Ingredient needs chopping {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': False, 'cooked_stage': 0}, False
+Stove tile: <tiles.Cooker object at 0x1178003c0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Counter tile: <tiles.Counter object at 0x11789da90>
+Counter item: {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Counter tile: <tiles.Counter object at 0x1030bd8b0>
+Counter item: {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800050>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Counter tile: <tiles.Counter object at 0x103077c50>
+Counter item: {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': True, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1178003c0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Counter tile: <tiles.Counter object at 0x11789d450>
+Counter item: {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': True, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': True, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800050>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': True, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1178003c0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800050>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'SAUCE', 'food_id': 4, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1178003c0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'SAUCE', 'food_id': 4, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800050>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1178003c0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800050>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1178003c0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800c00>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3a10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3a10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800c00>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800100>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3800>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800050>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1178003c0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3a10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800c00>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 1}}
+Stove tile: <tiles.Cooker object at 0x117800100>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 1}}
+Ingredient needs chopping {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 1}, False
+Ingredient needs chopping {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 1}, False
+Counter tile: <tiles.Counter object at 0x11789d4f0>
+Counter item: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 1}
+Counter tile: <tiles.Counter object at 0x1030be030>
+Counter item: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 1}
+Counter tile: <tiles.Counter object at 0x11789e2b0>
+Counter item: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Counter tile: <tiles.Counter object at 0x11789dbd0>
+Counter item: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800d60>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800d60>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800d60>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800d60>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800d60>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800d60>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800d60>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800d60>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800d60>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800d60>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800d60>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800d60>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Ingredient needs chopping {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': False, 'cooked_stage': 0}, False
+Stove tile: <tiles.Cooker object at 0x1028f3960>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Ingredient needs chopping {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': False, 'cooked_stage': 0}, False
+Stove tile: <tiles.Cooker object at 0x117800d60>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}}
+Counter tile: <tiles.Counter object at 0x11789dd10>
+Counter item: {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800470>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}}
+Counter tile: <tiles.Counter object at 0x103077610>
+Counter item: {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': False, 'cooked_stage': 0}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Counter tile: <tiles.Counter object at 0x117838f50>
+Counter item: {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': True, 'cooked_stage': 0}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Counter tile: <tiles.Counter object at 0x11789ddb0>
+Counter item: {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': True, 'cooked_stage': 0}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': True, 'cooked_stage': 0}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': True, 'cooked_stage': 0}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'SAUCE', 'food_id': 4, 'chopped': False, 'cooked_stage': 0}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'SAUCE', 'food_id': 4, 'chopped': False, 'cooked_stage': 0}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'NOODLES', 'food_id': 3, 'chopped': False, 'cooked_stage': 0}
+No more cooking needed for {'type': 'Food', 'food_name': 'NOODLES', 'food_id': 3, 'chopped': False, 'cooked_stage': 0}
+No more cooking needed for {'type': 'Food', 'food_name': 'SAUCE', 'food_id': 4, 'chopped': False, 'cooked_stage': 0}
+No more cooking needed for {'type': 'Food', 'food_name': 'SAUCE', 'food_id': 4, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800470>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800890>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800aa0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800520>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800680>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800470>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800890>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800aa0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800520>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800680>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800470>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800890>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800aa0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800520>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800680>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800470>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800890>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800aa0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800520>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800260>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800680>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800470>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}}
+Stove tile: <tiles.Cooker object at 0x117800890>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 1}}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 1}}
+Ingredient needs chopping {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 1}, False
+Ingredient needs chopping {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 1}, False
+Counter tile: <tiles.Counter object at 0x117838e10>
+Counter item: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 1}
+Counter tile: <tiles.Counter object at 0x11789f4d0>
+Counter item: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 1}
+Counter tile: <tiles.Counter object at 0x1030bf1b0>
+Counter item: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+Counter tile: <tiles.Counter object at 0x117839f90>
+Counter item: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': True, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'SAUCE', 'food_id': 4, 'chopped': False, 'cooked_stage': 0}
+No more cooking needed for {'type': 'Food', 'food_name': 'SAUCE', 'food_id': 4, 'chopped': False, 'cooked_stage': 0}
+Ingredient needs chopping {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': False, 'cooked_stage': 0}, False
+Ingredient needs chopping {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': False, 'cooked_stage': 0}, False
+Ingredient needs chopping {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': False, 'cooked_stage': 0}, False
+Ingredient needs chopping {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': False, 'cooked_stage': 0}, False
+Counter tile: <tiles.Counter object at 0x11789f2f0>
+Counter item: {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': False, 'cooked_stage': 0}
+Counter tile: <tiles.Counter object at 0x1030bc4b0>
+Counter item: {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': False, 'cooked_stage': 0}
+Counter tile: <tiles.Counter object at 0x117839090>
+Counter item: {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': True, 'cooked_stage': 0}
+Counter tile: <tiles.Counter object at 0x11789f610>
+Counter item: {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': True, 'cooked_stage': 0}
+No more cooking needed for {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': True, 'cooked_stage': 0}
+No more cooking needed for {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': True, 'cooked_stage': 0}
+No more cooking needed for {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': True, 'cooked_stage': 0}
+No more cooking needed for {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': True, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800470>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800470>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800470>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x117800470>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x117800470>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x117800470>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Clearing plate at (3, 12) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': [{'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}]}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': []}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Trashing held item due to expired order: {'type': 'Plate', 'dirty': False, 'food': []}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 3: Clearing plate at (12, 11) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 1: Clearing plate at (12, 11) due to expired order
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Ingredient needs chopping {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': False, 'cooked_stage': 0}, False
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Ingredient needs chopping {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': False, 'cooked_stage': 0}, False
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Counter tile: <tiles.Counter object at 0x1030beb70>
+Counter item: {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Counter tile: <tiles.Counter object at 0x103077d90>
+Counter item: {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Counter tile: <tiles.Counter object at 0x11789d810>
+Counter item: {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': True, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Counter tile: <tiles.Counter object at 0x1030bf9d0>
+Counter item: {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': True, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+No more cooking needed for {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': True, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+No more cooking needed for {'type': 'Food', 'food_name': 'ONIONS', 'food_id': 1, 'chopped': True, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1178005d0>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3b70>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': None}
+Stove tile: <tiles.Cooker object at 0x1028f3c20>
+Stove item: {'type': 'Pan', 'food': None}
+Bot 2: Clearing cooking state at (11, 0) due to expired order
+Bot 0: Clearing cooking state at (11, 0) due to expired order
+Bot 2: Clearing plate at (1, 14) due to expired order
+Bot 0: Clearing plate at (1, 14) due to expired order
+No more cooking needed for {'type': 'Food', 'food_name': 'SAUCE', 'food_id': 4, 'chopped': False, 'cooked_stage': 0}
+No more cooking needed for {'type': 'Food', 'food_name': 'SAUCE', 'food_id': 4, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800aa0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800520>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800aa0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800520>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800aa0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800520>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800aa0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x117800520>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800aa0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800aa0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800aa0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800aa0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800aa0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800aa0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800aa0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Trashing held item due to expired order: {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x117800aa0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x117800520>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x117800aa0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x117800e10>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1178009f0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 0}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x117800310>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}}
+Bot 3: Clearing cooking state at (11, 0) due to expired order
+Stove tile: <tiles.Cooker object at 0x117800520>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}}
+Bot 1: Clearing cooking state at (11, 0) due to expired order
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Bot 3: Clearing plate at (3, 12) due to expired order
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Bot 1: Clearing plate at (3, 12) due to expired order
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+No more cooking needed for {'type': 'Food', 'food_name': 'EGG', 'food_id': 0, 'chopped': False, 'cooked_stage': 1}
+Stove tile: <tiles.Cooker object at 0x117800cb0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}
+Stove tile: <tiles.Cooker object at 0x1028f38b0>
+Stove item: {'type': 'Pan', 'food': {'type': 'Food', 'food_name': 'MEAT', 'food_id': 2, 'chopped': False, 'cooked_stage': 0}}

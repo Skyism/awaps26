@@ -1,5 +1,5 @@
 ################
-#...C.....$...b#
+#...CCCC..$...b#
 #...K.....U.R..#
 #...S.....T.B..#
 #......b.......#
@@ -9,3 +9,48 @@ SWITCH: turn=250 duration=100
 
 ORDERS:
 start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+start=0  duration=200  required=NOODLES,MEAT           reward=10000 penalty=3
+

@@ -1,0 +1,28 @@
+.............#...R..
+..R.....$....#.....K
+..B.....#....#.CC...
+..B.b...#....#......
+..B....K#....#.$....
+..B.....#....#...T..
+..B.....#....#...T..
+..B....S#....U...S..
+..B....T#CCCC#...T..
+..B....T#CCCC#...T..
+..B....S#....U...S..
+..B.....#....#...T..
+..B.....#....#.$.T..
+..B.....#....#......
+..B....K#....#......
+..B.b...#....#......
+..B.....#....#.....K
+..B.....$....#.CC...
+..R..........#......
+.............#...R..
+
+SWITCH: turn=10 duration=5
+
+ORDERS:
+start=1  duration=150  required=EGG,NOODLES           reward=10 penalty=5
+start=1  duration=150  required=EGG,NOODLES,MEAT           reward=10 penalty=5
+start=200  duration=150  required=EGG,NOODLES,MEAT,ONIONS,SAUCE           reward=10 penalty=5
+
