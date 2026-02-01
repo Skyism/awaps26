@@ -973,9 +973,10 @@ class BotPlayer:
         if switch_info and switch_info.get("my_team_switched"):
             # Run switched sabotage gic
             self.run_sabotage(controller, bot_id)
-            pass
+            return
         elif switch_info and switch_info.get("window_active"):
             controller.switch_maps()
+            return
 
         # Initialize bot-specific claimed locations if not done yet
         if bot_id not in self.bot_selected_locations:
@@ -1028,3 +1029,18 @@ class BotPlayer:
         bots = controller.get_team_bot_ids(controller.get_team())
         for bot_id in bots[:2]:
             self.bot_turn(controller, bot_id)
+
+    def run_sabotage(self, controller: RobotController, bot_id: int):
+        """
+        Simple sabotage logic: move to nearest sabotage point and perform sabotage.
+        """
+        bot_state = controller.get_bot_state(bot_id)
+        bot_x, bot_y = bot_state["x"], bot_state["y"]
+
+        # If holding a pan, go to trash it
+
+        # Find the best stove with a pan to sabotage
+        best_stove = None
+        # Reminder this is on their side so cannot depend on cooker_pos
+
+        # Rinse and repeat
