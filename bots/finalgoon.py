@@ -1,4 +1,3 @@
-import os
 import random
 from collections import deque
 from dataclasses import dataclass
@@ -8,40 +7,11 @@ from game_constants import FoodType, ShopCosts, Team, TileType
 from item import Food, Pan, Plate
 from robot_controller import RobotController
 
-# python src/game.py --red bots/goon.py --blue bots/goon.py --map maps/map1.txt --render
-
-# python src/game.py --red bots/duo_noodle_bot.py --blue bots/goon.py --map maps/map1.txt --replay replay_path.json
-
-# ENABLE_LOGGING=1 python src/game.py --red bots/samplegoon1.py --blue bots/submittedbot.py --map maps/v1.txt  --render --timeout 2.5
-
-# ENABLE_LOGGING=1 python src/game.py --red bots/samplegoon1.py --blue bots/submittedbot.py --map maps/v1.txt  --render --timeout 2.5
+from pyinstrument import Profiler
 
 
-# LOGGING_ENABLED = os.environ.get("ENABLE_LOGGING", "0") == "1"
-LOGGING_ENABLED = False
-
-
-class SafeFile:
-    def __enter__(self):
-        return self
-
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        pass
-
-    def write(self, msg):
-        pass
-
-
-def safe_open(file, mode):
-    if LOGGING_ENABLED:
-        return open(file, mode)
-    return SafeFile()
-
-
-def logger(msg):
-    if LOGGING_ENABLED:
-        with safe_open("tmp/goon.txt", "a") as f:
-            f.write(msg + "\n")
+# Define this as a constant outside the class for speed
+NEIGHBORS = [(-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1)]
 
 
 @dataclass
@@ -83,6 +53,7 @@ class BotPlayer:
         self.throw_out = None
         self.ready_for_sabotage = [False, False, False, False]
         self.smaller_bot_id = 1000000
+        self.active_paths = {}
 
         self.bot_claimed_locations = {}
         self.bot_selected_locations = {}
@@ -94,10 +65,15 @@ class BotPlayer:
         self.bot_orders = {}
         self.order_claims = {}
 
-        if LOGGING_ENABLED:
-            open("tmp/goon.txt", "w").close()
+        # duo_noodle_bot state tracking for single counter mode
+        self.use_simple_logic = False
+        self.assembly_counter = None
+        self.cooker_loc = None
+        self.simple_state = 0
 
     def _initialize_locations(self, controller: RobotController):
+        profiler = Profiler()
+        profiler.start()
         """Find and cache important tile locations once"""
 
         m = controller.get_map(controller.get_team())
@@ -142,11 +118,18 @@ class BotPlayer:
         #         f.write(f"Staging counter: {self.staging_counter}\n")
         #         f.write(f"Assembly counter: {self.assembly_counter}\n")
 
-        logger(f"self.cooker_pos: {self.cooker_pos}")
-        logger(f"self.shop_pos: {self.shop_pos}")
-        logger(f"self.submit_pos: {self.submit_pos}")
-        logger(f"self.trash_pos: {self.trash_pos}")
-        logger(f"self.all_counters: {self.all_counters}")
+        # logger(f"self.cooker_pos: {self.cooker_pos}")
+        # logger(f"self.shop_pos: {self.shop_pos}")
+        # logger(f"self.submit_pos: {self.submit_pos}")
+        # logger(f"self.trash_pos: {self.trash_pos}")
+        # logger(f"self.all_counters: {self.all_counters}")
+
+        # Check if we should use simple logic (only 1 counter)
+        if len(self.all_counters) == 1:
+            self.use_simple_logic = True
+            # logger("USING SIMPLE LOGIC (duo_noodle_bot mode) - only 1 counter detected")
+        profiler.stop()
+        print(f"Initialization time: {profiler.output_text()}")
 
     # ==================== PATHFINDING HELPERS ====================
 
@@ -396,7 +379,7 @@ class BotPlayer:
 
         if not empty_counters:
             # No empty counters, return first counter as fallback
-            logger("No empty counters found")
+            # logger("No empty counters found")
             return self.all_counters[0] if self.all_counters else None
 
         # Filter to only reachable counters (can path to Chebyshev distance <= 1)
@@ -415,11 +398,11 @@ class BotPlayer:
 
         if not reachable_counters:
             # No reachable empty counters, return closest empty counter anyway
-            logger(f"Bot {bot_id}: No reachable empty counters, using closest")
+            # logger(f"Bot {bot_id}: No reachable empty counters, using closest")
             return self.find_closest(controller, bot_x, bot_y, empty_counters)
 
         # Return closest reachable counter
-        logger(f"Bot {bot_id}: Found reachable empty counter")
+        # logger(f"Bot {bot_id}: Found reachable empty counter")
         return self.find_closest(controller, bot_x, bot_y, reachable_counters)
 
     def find_empty_cooker(self, controller: RobotController, bot_id: int):
@@ -440,7 +423,7 @@ class BotPlayer:
 
         if not cookers_with_pans:
             # No cookers with pans, return first cooker as fallback
-            logger(f"Bot {bot_id}: No cookers with pans found")
+            # logger(f"Bot {bot_id}: No cookers with pans found")
             return self.cooker_pos[0] if self.cooker_pos else None
 
         # Filter to only reachable cookers (can path to Chebyshev distance <= 1)
@@ -459,13 +442,13 @@ class BotPlayer:
 
         if not reachable_cookers:
             # No reachable cookers with pans, return closest one anyway
-            logger(f"Bot {bot_id}: No reachable cookers with pans, using closest")
+            # logger(f"Bot {bot_id}: No reachable cookers with pans, using closest")
             return self.find_closest(controller, bot_x, bot_y, cookers_with_pans)
 
         # Return closest reachable cooker
-        logger(
-            f"Bot {bot_id}: Found {len(reachable_cookers)} reachable cookers with pans"
-        )
+        # logger(
+        # f"Bot {bot_id}: Found {len(reachable_cookers)} reachable cookers with pans"
+        # )
         return self.find_closest(controller, bot_x, bot_y, reachable_cookers)
 
     def find_cooker_without_a_pan(self, controller: RobotController, bot_id: int):
@@ -486,7 +469,7 @@ class BotPlayer:
 
         if not cookers_without_pans:
             # All cookers have pans, return first cooker as fallback
-            logger(f"Bot {bot_id}: All cookers have pans")
+            # logger(f"Bot {bot_id}: All cookers have pans")
             return None
 
         # Filter to only reachable cookers (can path to Chebyshev distance <= 1)
@@ -505,13 +488,13 @@ class BotPlayer:
 
         if not reachable_cookers:
             # No reachable cookers without pans, return closest one anyway
-            logger(f"Bot {bot_id}: No reachable cookers without pans, using closest")
+            # logger(f"Bot {bot_id}: No reachable cookers without pans, using closest")
             return self.find_closest(controller, bot_x, bot_y, cookers_without_pans)
 
         # Return closest reachable cooker
-        logger(
-            f"Bot {bot_id}: Found {len(reachable_cookers)} reachable cookers without pans"
-        )
+        # logger(
+        # f"Bot {bot_id}: Found {len(reachable_cookers)} reachable cookers without pans"
+        # )
         return self.find_closest(controller, bot_x, bot_y, reachable_cookers)
 
     def find_closest_shop(self, controller: RobotController, bot_id: int):
@@ -574,7 +557,7 @@ class BotPlayer:
                 active_orders = sorted(
                     active_orders, key=lambda o: o["expires_turn"], reverse=False
                 )
-                logger(f"Bot {bot_id}: Found {len(active_orders)} active orders")
+                # logger(f"Bot {bot_id}: Found {len(active_orders)} active orders")
 
             # Score all viable orders
             scored_orders = []
@@ -605,12 +588,12 @@ class BotPlayer:
                 self.current_order.plate_tracker = plate_tracker
                 self.current_order.stove_pos = None
 
-                logger(
-                    f"Bot {bot_id}: Selected order {order_id} with score {best_score:.2f}"
-                )
+                # logger(
+                # f"Bot {bot_id}: Selected order {order_id} with score {best_score:.2f}"
+                # )
                 return True
 
-            logger(f"Bot {bot_id}: No good orders available")
+            # logger(f"Bot {bot_id}: No good orders available")
         return False
 
     def is_good_order(self, order, controller: RobotController, bot_id: int):
@@ -627,7 +610,7 @@ class BotPlayer:
 
         # Check if we have all necessary locations
         if not all([shop_loc, stove_loc, counter1_loc, counter2_loc, submit_loc]):
-            logger(f"Bot {bot_id}: Missing required locations for order evaluation")
+            # logger(f"Bot {bot_id}: Missing required locations for order evaluation")
             return True  # Accept order if we can't evaluate properly
 
         ing_costs = 0
@@ -712,22 +695,22 @@ class BotPlayer:
         # Check basic profitability - order must make profit (cost < reward)
         # Don't reject based on reward_per_turn ratio - let scoring prioritize
         if ing_costs >= order["reward"]:
-            logger(
-                f"Bot {bot_id}: Order {order['order_id']} rejected - unprofitable (cost={ing_costs}, reward={order['reward']})"
-            )
+            # logger(
+            # f"Bot {bot_id}: Order {order['order_id']} rejected - unprofitable (cost={ing_costs}, reward={order['reward']})"
+            # )
             return False
 
         # Check time feasibility
         turns_remaining = order["expires_turn"] - controller.get_turn()
         if turns_remaining < time_needed:
-            logger(
-                f"Bot {bot_id}: Order {order['order_id']} rejected - insufficient time (need={time_needed}, have={turns_remaining})"
-            )
+            # logger(
+            # f"Bot {bot_id}: Order {order['order_id']} rejected - insufficient time (need={time_needed}, have={turns_remaining})"
+            # )
             return False
 
-        logger(
-            f"Bot {bot_id}: Order {order['order_id']} accepted (cost={ing_costs}, time={time_needed}/{turns_remaining})"
-        )
+        # logger(
+        # f"Bot {bot_id}: Order {order['order_id']} accepted (cost={ing_costs}, time={time_needed}/{turns_remaining})"
+        # )
         return True
 
     def _calculate_ingredient_cost(self, ingredients: List[str]) -> int:
@@ -858,10 +841,10 @@ class BotPlayer:
         # Final score: reward per turn * urgency
         score = value_per_turn * urgency
 
-        logger(
-            f"Bot {bot_id}: Order {order['order_id']} score={score:.2f} "
-            f"(reward_per_turn={value_per_turn:.2f}, urgency={urgency:.2f})"
-        )
+        # logger(
+        # f"Bot {bot_id}: Order {order['order_id']} score={score:.2f} "
+        # f"(reward_per_turn={value_per_turn:.2f}, urgency={urgency:.2f})"
+        # )
 
         return score
 
@@ -876,7 +859,7 @@ class BotPlayer:
         # Trash any held item (food, plate with partial order, etc.)
         holding = bot_state.get("holding")
         if holding:
-            logger(f"Bot {bot_id}: Trashing held item due to expired order: {holding}")
+            # logger(f"Bot {bot_id}: Trashing held item due to expired order: {holding}")
             # Move to trash and discard
             if (
                 holding.get("type") != "Plate"
@@ -896,9 +879,9 @@ class BotPlayer:
         # Clear cooking state and optionally retrieve/trash food from cooker
         if self.bot_cooking.get(bot_id):
             (item, x, y) = self.bot_cooking[bot_id]
-            logger(
-                f"Bot {bot_id}: Clearing cooking state at ({x}, {y}) due to expired order"
-            )
+            # logger(
+            # f"Bot {bot_id}: Clearing cooking state at ({x}, {y}) due to expired order"
+            # )
             # Try to take food from pan and trash it
             stove_tile = controller.get_tile(controller.get_team(), x, y)
             if stove_tile and stove_tile.item:
@@ -917,9 +900,9 @@ class BotPlayer:
         # Clear chopping state and optionally retrieve/trash food from counter
         if self.bot_chopping.get(bot_id):
             (item, x, y) = self.bot_chopping[bot_id]
-            logger(
-                f"Bot {bot_id}: Clearing chopping state at ({x}, {y}) due to expired order"
-            )
+            # logger(
+            # f"Bot {bot_id}: Clearing chopping state at ({x}, {y}) due to expired order"
+            # )
             # Try to pick up food from counter and trash it
             counter_tile = controller.get_tile(controller.get_team(), x, y)
             if counter_tile and counter_tile.item:
@@ -943,9 +926,9 @@ class BotPlayer:
             plate_tile = controller.get_tile(controller.get_team(), px, py)
             if plate_tile and plate_tile.item:
                 plate = controller.item_to_public_dict(plate_tile.item)
-                logger(
-                    f"Bot {bot_id}: Clearing plate at ({px}, {py}) due to expired order"
-                )
+                # logger(
+                # f"Bot {bot_id}: Clearing plate at ({px}, {py}) due to expired order"
+                # )
                 if plate and not plate.get("dirty") and len(plate.get("food", [])) == 0:
                     # Clean empty plate, we can reuse it
                     return True
@@ -977,22 +960,11 @@ class BotPlayer:
         """Buy a plate and place it on a counter"""
         bot_state = controller.get_bot_state(bot_id)
 
-        with safe_open("tmp/plate.txt", "a") as f:
-            f.write(f"=== get_plate called ===\n")
-            f.write(f"bot_state: {bot_state}\n")
-            if bot_state:
-                f.write(f"holding key exists: {'holding' in bot_state}\n")
-                f.write(f"holding value: {bot_state.get('holding')}\n")
-
         # If already holding plate, place it on counter
         if bot_state and bot_state.get("holding") is not None:
             held_item = bot_state["holding"]
-            with safe_open("tmp/plate.txt", "a") as f:
-                f.write(f"held_item: {held_item}\n")
 
             if held_item and held_item["type"] == "Plate":
-                with safe_open("tmp/plate.txt", "a") as f:
-                    f.write(f"Bot is holding a plate, trying to place it\n")
                 # Find a counter to place the plate
                 counter = self.find_empty_counter(controller, bot_id)
                 if counter:
@@ -1000,22 +972,15 @@ class BotPlayer:
                     if self.move_towards(controller, bot_id, cx, cy):
                         if controller.place(bot_id, cx, cy):
                             self.current_order.plate_tracker.plate_pos = (cx, cy)
-                            with safe_open("tmp/plate.txt", "a") as f:
-                                f.write(f"Placed plate at ({cx}, {cy})\n")
                             return True
                     # Still moving towards counter, don't try to buy
-                    with safe_open("tmp/plate.txt", "a") as f:
-                        f.write(f"Still moving towards counter at ({cx}, {cy})\n")
                     return False
             # TODO: Handle case where bot is holding something else (trash it?)
 
         # Otherwise, go buy a plate (only if not holding anything)
-        with safe_open("tmp/plate.txt", "a") as f:
-            f.write(f"Attempting to buy plate\n")
-
         shop = self.bot_selected_locations[bot_id]["shop"]
         if shop is None:
-            logger(f"Bot {bot_id}: No accessible shop found, cannot buy plate")
+            # logger(f"Bot {bot_id}: No accessible shop found, cannot buy plate")
             return False
         sx, sy = shop
         if self.move_towards(controller, bot_id, sx, sy):
@@ -1024,8 +989,6 @@ class BotPlayer:
                 >= ShopCosts.PLATE.buy_cost
             ):
                 if controller.buy(bot_id, ShopCosts.PLATE, sx, sy):
-                    with safe_open("tmp/plate.txt", "a") as f:
-                        f.write(f"Purchased plate at ({sx}, {sy})\n")
                     return True
 
         return False
@@ -1055,17 +1018,17 @@ class BotPlayer:
     def place_pan(self, controller: RobotController, bot_id: int):
         """Place held pan on nearest empty cooker"""
         bot_state = controller.get_bot_state(bot_id)
-        logger(f"Bot {bot_id} place_pan called with bot_state: {bot_state}")
+        # logger(f"Bot {bot_id} place_pan called with bot_state: {bot_state}")
 
         # If holding pan, place it on nearest empty cooker
         if bot_state and bot_state.get("holding") is not None:
             held_item = bot_state["holding"]
-            logger(f"Bot {bot_id} held_item in place_pan: {held_item}")
+            # logger(f"Bot {bot_id} held_item in place_pan: {held_item}")
 
             if held_item and held_item["type"] == "Pan":
                 # Find a cooker without a pan to place this pan on
                 cooker = self.find_cooker_without_a_pan(controller, bot_id)
-                logger(f"Bot {bot_id} found cooker without pan in place_pan: {cooker}")
+                # logger(f"Bot {bot_id} found cooker without pan in place_pan: {cooker}")
                 if cooker:
                     cx, cy = cooker
                     if self.move_towards(controller, bot_id, cx, cy):
@@ -1085,44 +1048,28 @@ class BotPlayer:
         """Buy a pan and place it on the nearest empty cooker"""
         bot_state = controller.get_bot_state(bot_id)
 
-        with safe_open("tmp/plate.txt", "a") as f:
-            f.write(f"=== get_pan called ===\n")
-            f.write(f"bot_state: {bot_state}\n")
-            if bot_state:
-                f.write(f"holding key exists: {'holding' in bot_state}\n")
-                f.write(f"holding value: {bot_state.get('holding')}\n")
-
         # If already holding pan, place it on nearest empty cooker
         if bot_state and bot_state.get("holding") is not None:
             held_item = bot_state["holding"]
 
             if held_item and held_item["type"] != "Pan":
-                with safe_open("tmp/plate.txt", "a") as f:
-                    f.write(f"Bot is holding something else, trying to trash it\n")
                 # Move to trash and discard
                 tx, ty = self.trash_pos[0]
                 if self.move_towards(controller, bot_id, tx, ty):
                     if controller.trash(bot_id, tx, ty):
-                        with safe_open("tmp/plate.txt", "a") as f:
-                            f.write(f"Trashed item at ({tx}, {ty})\n")
                         return False  # Action consumed
                 return False  # Still moving
             else:
-                with safe_open("tmp/plate.txt", "a") as f:
-                    f.write(f"Bot is holding a pan, trying to place it\n")
                 if self.place_pan(controller, bot_id):
                     return True
                 else:
                     return False  # Still moving or placing
-
-        with safe_open("tmp/plate.txt", "a") as f:
-            f.write(f"Attempting to buy pan\n")
         shop = self.bot_selected_locations.get(bot_id, {}).get("shop")
         if shop is None:
             # Fallback to first shop if bot_selected_locations not set
             shop = self.shop_pos[0] if self.shop_pos else None
         if shop is None:
-            logger(f"Bot {bot_id}: No accessible shop found, cannot buy pan")
+            # logger(f"Bot {bot_id}: No accessible shop found, cannot buy pan")
             return False
         sx, sy = shop
         if self.move_towards(controller, bot_id, sx, sy):
@@ -1131,8 +1078,6 @@ class BotPlayer:
                 >= ShopCosts.PAN.buy_cost
             ):
                 if controller.buy(bot_id, ShopCosts.PAN, sx, sy):
-                    with safe_open("tmp/plate.txt", "a") as f:
-                        f.write(f"Purchased pan at ({sx}, {sy})\n")
                     return True
 
     def prep_ings(self, controller: RobotController, held_item, bot_id: int):
@@ -1197,9 +1142,9 @@ class BotPlayer:
                 return False
 
             elif ing_name in ["ONIONS", "MEAT"] and not held_item.get("chopped"):
-                logger(
-                    f"Ingredient needs chopping {held_item}, {held_item.get('chopped')}"
-                )
+                # logger(
+                # f"Ingredient needs chopping {held_item}, {held_item.get('chopped')}"
+                # )
                 counter = self.find_empty_counter(controller, bot_id)
                 # needs to be chopped
                 if counter:
@@ -1220,7 +1165,7 @@ class BotPlayer:
                 return False
 
             else:
-                logger(f"No more cooking needed for {held_item}")
+                # logger(f"No more cooking needed for {held_item}")
                 return True
 
         # # Check if a plate exists otherwise call get_plate
@@ -1233,10 +1178,10 @@ class BotPlayer:
             (item, x, y) = self.cooking
             if self.move_towards(controller, self.bot_id, x, y):
                 stove_tile = controller.get_tile(controller.get_team(), x, y)
-                logger(f"Stove tile: {stove_tile}")
+                # logger(f"Stove tile: {stove_tile}")
                 if stove_tile and stove_tile.item:
                     stove_item = controller.item_to_public_dict(stove_tile.item)
-                    logger(f"Stove item: {stove_item}")
+                    # logger(f"Stove item: {stove_item}")
                     food = stove_item.get("food") if stove_item else None
                     if food and food.get("cooked_stage") >= 1:
                         if controller.take_from_pan(self.bot_id, x, y):
@@ -1248,10 +1193,10 @@ class BotPlayer:
             (item, x, y) = self.chopping
             if self.move_towards(controller, self.bot_id, x, y):
                 counter_tile = controller.get_tile(controller.get_team(), x, y)
-                logger(f"Counter tile: {counter_tile}")
+                # logger(f"Counter tile: {counter_tile}")
                 if counter_tile and counter_tile.item:
                     counter_item = controller.item_to_public_dict(counter_tile.item)
-                    logger(f"Counter item: {counter_item}")
+                    # logger(f"Counter item: {counter_item}")
                     if counter_item.get("chopped"):
                         if controller.pickup(self.bot_id, x, y):
                             self.chopping = None
@@ -1310,12 +1255,12 @@ class BotPlayer:
                 # Fallback to first submit if bot_selected_locations not set
                 submit = self.submit_pos[0] if self.submit_pos else None
             if submit is None:
-                logger(f"Bot {bot_id}: No accessible submit found, cannot submit plate")
+                # logger(f"Bot {bot_id}: No accessible submit found, cannot submit plate")
                 return
             sx, sy = submit
             if self.move_towards(controller, bot_id, sx, sy):
                 if controller.submit(bot_id, sx, sy):
-                    logger(f"Bot {bot_id}: Submitted order {self.current_order.order}")
+                    # logger(f"Bot {bot_id}: Submitted order {self.current_order.order}")
                     # Reset current order
                     if self.current_order.order:
                         self._release_order_claim(
@@ -1325,13 +1270,11 @@ class BotPlayer:
                     self.bot_orders[bot_id] = self.current_order
 
     def bot_turn(self, controller: RobotController, bot_id: int):
-        logger(f"current turn: {controller.get_turn()}")
+        # logger(f"current turn: {controller.get_turn()}")
         past_plate_x, past_plate_y = None, None
         bot_state = controller.get_bot_state(bot_id)
         bx, by = bot_state["x"], bot_state["y"]
         holding = bot_state.get("holding")
-        with safe_open("tmp/holding.txt", "a") as f:
-            f.write(f"Bot is at ({bx}, {by}) and holding {(holding)}\n")
 
         if not self.initialized:
             self._initialize_locations(controller)
@@ -1339,76 +1282,76 @@ class BotPlayer:
 
         self.smaller_bot_id = min(self.smaller_bot_id, bot_id)
 
-        # switch_info = controller.get_switch_info()
+        switch_info = controller.get_switch_info()
 
-        # # If is switched
+        # If is switched
         # logger(f"Bot {bot_id}: Switch info: {switch_info}")
 
-        # if switch_info and switch_info.get("my_team_switched"):
-        #     # Run switched sabotage logic
-        #     logger(
-        #         f"Bot {bot_id}: [SWITCH CHECK] my_team_switched=True, entering sabotage mode"
-        #     )
-        #     self.run_sabotage(controller, bot_id)
-        #     return
-        # elif (
-        #     switch_info
-        #     and switch_info.get("window_active")
-        #     and switch_info.get("turn") >= (switch_info.get("window_end_turn") - 35)
-        # ):
-        #     # Prepare for switch - actively clear hands by trashing/placing items
-        #     logger(
-        #         f"Bot {bot_id}: [SWITCH PREP] Preparing to switch. Holding: {holding}"
-        #     )
+        if switch_info and switch_info.get("my_team_switched"):
+            # Run switched sabotage logic
+            # logger(
+            # f"Bot {bot_id}: [SWITCH CHECK] my_team_switched=True, entering sabotage mode"
+            # )
+            self.run_sabotage(controller, bot_id)
+            return
+        elif (
+            switch_info
+            and switch_info.get("window_active")
+            and switch_info.get("turn") >= (switch_info.get("window_end_turn") - 35)
+        ):
+            # Prepare for switch - actively clear hands by trashing/placing items
+            # logger(
+            # f"Bot {bot_id}: [SWITCH PREP] Preparing to switch. Holding: {holding}"
+            # )
 
-        #     if holding is not None:
-        #         # Actively trash or place the item to clear hands
-        #         held_type = holding.get("type")
+            if holding is not None:
+                # Actively trash or place the item to clear hands
+                held_type = holding.get("type")
 
-        #         # Try to trash it
-        #         if self.trash_pos:
-        #             tx, ty = self.trash_pos[0]
-        #             logger(
-        #                 f"Bot {bot_id}: [SWITCH PREP] Trashing {held_type} to clear hands"
-        #             )
-        #             if self.move_towards(controller, bot_id, tx, ty):
-        #                 if controller.trash(bot_id, tx, ty):
-        #                     logger(
-        #                         f"Bot {bot_id}: [SWITCH PREP] Successfully trashed item!"
-        #                     )
-        #                     self.ready_for_sabotage[bot_id] = True
-        #                 else:
-        #                     logger(
-        #                         f"Bot {bot_id}: [SWITCH PREP] Failed to trash, trying next turn"
-        #                     )
-        #                     self.ready_for_sabotage[bot_id] = False
-        #             else:
-        #                 logger(f"Bot {bot_id}: [SWITCH PREP] Moving towards trash")
-        #                 self.ready_for_sabotage[bot_id] = False
-        #             return
-        #         else:
-        #             logger(
-        #                 f"Bot {bot_id}: [SWITCH PREP] No trash found, marking not ready"
-        #             )
-        #             self.ready_for_sabotage[bot_id] = False
-        #             return
-        #     else:
-        #         # Hands are clear, mark ready
-        #         self.ready_for_sabotage[bot_id] = True
-        #         logger(f"Bot {bot_id}: [SWITCH PREP] Hands clear, ready to switch")
+                # Try to trash it
+                if self.trash_pos:
+                    tx, ty = self.trash_pos[0]
+                    # logger(
+                    # f"Bot {bot_id}: [SWITCH PREP] Trashing {held_type} to clear hands"
+                    # )
+                    if self.move_towards(controller, bot_id, tx, ty):
+                        if controller.trash(bot_id, tx, ty):
+                            # logger(
+                            # f"Bot {bot_id}: [SWITCH PREP] Successfully trashed item!"
+                            # )
+                            self.ready_for_sabotage[bot_id] = True
+                        else:
+                            # logger(
+                            # f"Bot {bot_id}: [SWITCH PREP] Failed to trash, trying next turn"
+                            # )
+                            self.ready_for_sabotage[bot_id] = False
+                    else:
+                        # logger(f"Bot {bot_id}: [SWITCH PREP] Moving towards trash")
+                        self.ready_for_sabotage[bot_id] = False
+                    return
+                else:
+                    # logger(
+                    # f"Bot {bot_id}: [SWITCH PREP] No trash found, marking not ready"
+                    # )
+                    self.ready_for_sabotage[bot_id] = False
+                    return
+            else:
+                # Hands are clear, mark ready
+                self.ready_for_sabotage[bot_id] = True
+                # logger(f"Bot {bot_id}: [SWITCH PREP] Hands clear, ready to switch")
 
-        #     # Check if both bots are ready
-        #     if sum([1 for v in self.ready_for_sabotage if v]) >= 2:
-        #         # Both bots are ready, switch now
-        #         logger(f"Bot {bot_id}: [SWITCH CHECK] Both bots ready, switching maps!")
-        #         controller.switch_maps()
-        #         logger(f"Bot {bot_id}: [SWITCH] Successfully switched maps!")
-        #         return
-        #     else:
-        #         logger(
-        #             f"Bot {bot_id}: [SWITCH CHECK] Waiting for other bot to clear hands. Ready: {self.ready_for_sabotage}"
-        #         )
-        #         return
+            # Check if both bots are ready
+            if sum([1 for v in self.ready_for_sabotage if v]) >= 2:
+                # Both bots are ready, switch now
+                # logger(f"Bot {bot_id}: [SWITCH CHECK] Both bots ready, switching maps!")
+                controller.switch_maps()
+                # logger(f"Bot {bot_id}: [SWITCH] Successfully switched maps!")
+                return
+            else:
+                # logger(
+                # f"Bot {bot_id}: [SWITCH CHECK] Waiting for other bot to clear hands. Ready: {self.ready_for_sabotage}"
+                # )
+                return
 
         # Initialize bot-specific claimed locations if not done yet
         if bot_id not in self.bot_selected_locations:
@@ -1440,37 +1383,209 @@ class BotPlayer:
             self.bot_orders[bot_id] = self.current_order
 
         if holding and holding.get("type") == "Pan":
-            logger(f"Bot {bot_id}: [PAN] Placing pan")
+            # logger(f"Bot {bot_id}: [PAN] Placing pan")
             self.place_pan(controller, bot_id)
             return
 
-        if self.current_order.order:
-            logger(f"Bot {bot_id}: [CURRENT_ORDER] {self.current_order.order}")
-            logger(f"Bot {bot_id}: [CURRENT_ORDER] {self.current_order.plate_tracker}")
-            logger(
-                f"Bot {bot_id}: [CURRENT_ORDER] {self.current_order.plate_tracker.ing_on_plate}"
-            )
-
         if not self.current_order.order:
-            logger(f"Bot {bot_id}: [ORDER] Getting order")
             self.get_order(
                 controller, bot_id, active_orders, past_plate_x, past_plate_y
             )
         elif self.should_get_plate(controller):
-            logger(f"Bot {bot_id}: [PLATE] Getting plate")
             self.get_plate(controller, bot_id)
         elif self.should_get_pan(controller) and self.smaller_bot_id == bot_id:
-            logger(f"Bot {bot_id}: [PAN] Getting pan")
             self.get_pan(controller, bot_id)
         elif not all(self.current_order.plate_tracker.ing_on_plate):
-            logger(f"Bot {bot_id}: [PREP] Prepping ingredients")
             self.prep_ings(controller, holding, bot_id)
         else:
-            logger(f"Bot {bot_id}: [SUBMIT] Submitting plate")
             self.submit_plate(controller, holding, bot_id)
 
         self.bot_cooking[bot_id] = self.cooking
         self.bot_chopping[bot_id] = self.chopping
+
+    def simple_bot_turn(self, controller: RobotController, bot_id: int):
+        """Simple state machine logic from duo_noodle_bot for single counter scenarios"""
+        bot_info = controller.get_bot_state(bot_id)
+        if not bot_info:
+            return
+
+        bx, by = bot_info["x"], bot_info["y"]
+
+        # Initialize assembly counter and cooker location
+        if self.assembly_counter is None:
+            self.assembly_counter = self.all_counters[0] if self.all_counters else None
+        if self.cooker_loc is None:
+            self.cooker_loc = self.cooker_pos[0] if self.cooker_pos else None
+
+        if not self.assembly_counter or not self.cooker_loc:
+            return
+
+        cx, cy = self.assembly_counter
+        kx, ky = self.cooker_loc
+
+        # Handle holding something in states 2, 8, 10
+        if self.simple_state in [2, 8, 10] and bot_info.get("holding"):
+            self.simple_state = 16
+
+        # state 0: init + checking the pan
+        if self.simple_state == 0:
+            tile = controller.get_tile(controller.get_team(), kx, ky)
+            if (
+                tile
+                and tile.item
+                and controller.item_to_public_dict(tile.item).get("type") == "Pan"
+            ):
+                # logger(f"Bot {bot_id}: [SIMPLE] Found pan")
+                self.simple_state = 2
+            else:
+                # logger(f"Bot {bot_id}: [SIMPLE] No pan")
+                self.simple_state = 1
+
+        # state 1: buy pan
+        elif self.simple_state == 1:
+            holding = bot_info.get("holding")
+            if holding:  # assume it's the pan
+                if self.move_towards(controller, bot_id, kx, ky):
+                    if controller.place(bot_id, kx, ky):
+                        self.simple_state = 2
+            else:
+                shop_pos = self.find_closest_shop(controller, bot_id)
+                if not shop_pos:
+                    return
+                sx, sy = shop_pos
+                if self.move_towards(controller, bot_id, sx, sy):
+                    if (
+                        controller.get_team_money(controller.get_team())
+                        >= ShopCosts.PAN.buy_cost
+                    ):
+                        controller.buy(bot_id, ShopCosts.PAN, sx, sy)
+
+        # state 2: buy meat
+        elif self.simple_state == 2:
+            shop_pos = self.find_closest_shop(controller, bot_id)
+            sx, sy = shop_pos
+            if self.move_towards(controller, bot_id, sx, sy):
+                if (
+                    controller.get_team_money(controller.get_team())
+                    >= FoodType.MEAT.buy_cost
+                ):
+                    if controller.buy(bot_id, FoodType.MEAT, sx, sy):
+                        self.simple_state = 3
+
+        # state 3: put meat on counter
+        elif self.simple_state == 3:
+            if self.move_towards(controller, bot_id, cx, cy):
+                if controller.place(bot_id, cx, cy):
+                    self.simple_state = 4
+
+        # state 4: chop meat
+        elif self.simple_state == 4:
+            if self.move_towards(controller, bot_id, cx, cy):
+                if controller.chop(bot_id, cx, cy):
+                    self.simple_state = 5
+
+        # state 5: pickup meat
+        elif self.simple_state == 5:
+            if self.move_towards(controller, bot_id, cx, cy):
+                if controller.pickup(bot_id, cx, cy):
+                    self.simple_state = 6
+
+        # state 6: put meat on cooker
+        elif self.simple_state == 6:
+            if self.move_towards(controller, bot_id, kx, ky):
+                if controller.place(bot_id, kx, ky):
+                    self.simple_state = 8  # Skip state 7
+
+        # state 7: start the cook (skipped in current logic)
+        elif self.simple_state == 7:
+            self.simple_state = 8
+
+        # state 8: buy the plate
+        elif self.simple_state == 8:
+            shop_pos = self.find_closest_shop(controller, bot_id)
+            sx, sy = shop_pos
+            if self.move_towards(controller, bot_id, sx, sy):
+                if (
+                    controller.get_team_money(controller.get_team())
+                    >= ShopCosts.PLATE.buy_cost
+                ):
+                    if controller.buy(bot_id, ShopCosts.PLATE, sx, sy):
+                        self.simple_state = 9
+
+        # state 9: put the plate on the counter
+        elif self.simple_state == 9:
+            if self.move_towards(controller, bot_id, cx, cy):
+                if controller.place(bot_id, cx, cy):
+                    self.simple_state = 10
+
+        # state 10: buy noodle
+        elif self.simple_state == 10:
+            shop_pos = self.find_closest_shop(controller, bot_id)
+            sx, sy = shop_pos
+            if self.move_towards(controller, bot_id, sx, sy):
+                if (
+                    controller.get_team_money(controller.get_team())
+                    >= FoodType.NOODLES.buy_cost
+                ):
+                    if controller.buy(bot_id, FoodType.NOODLES, sx, sy):
+                        self.simple_state = 11
+
+        # state 11: add noodles to plate
+        elif self.simple_state == 11:
+            if self.move_towards(controller, bot_id, cx, cy):
+                if controller.add_food_to_plate(bot_id, cx, cy):
+                    self.simple_state = 12
+
+        # state 12: wait and take meat
+        elif self.simple_state == 12:
+            if self.move_towards(controller, bot_id, kx, ky):
+                tile = controller.get_tile(controller.get_team(), kx, ky)
+                if tile and tile.item:
+                    item_dict = controller.item_to_public_dict(tile.item)
+                    if item_dict.get("type") == "Pan" and item_dict.get("food"):
+                        food = item_dict["food"]
+                        if food.get("cooked_stage") == 1:
+                            if controller.take_from_pan(bot_id, kx, ky):
+                                self.simple_state = 13
+                        elif food.get("cooked_stage") == 2:
+                            # burnt, trash
+                            if controller.take_from_pan(bot_id, kx, ky):
+                                self.simple_state = 16
+                else:
+                    if bot_info.get("holding"):
+                        # trash
+                        self.simple_state = 16
+                    else:
+                        # restart
+                        self.simple_state = 2
+
+        # state 13: add meat to plate
+        elif self.simple_state == 13:
+            if self.move_towards(controller, bot_id, cx, cy):
+                if controller.add_food_to_plate(bot_id, cx, cy):
+                    self.simple_state = 14
+
+        # state 14: pick up the plate
+        elif self.simple_state == 14:
+            if self.move_towards(controller, bot_id, cx, cy):
+                if controller.pickup(bot_id, cx, cy):
+                    self.simple_state = 15
+
+        # state 15: submit
+        elif self.simple_state == 15:
+            submit_pos = self.find_closest_submit(controller, bot_id)
+            ux, uy = submit_pos
+            if self.move_towards(controller, bot_id, ux, uy):
+                if controller.submit(bot_id, ux, uy):
+                    self.simple_state = 0
+
+        # state 16: trash
+        elif self.simple_state == 16:
+            if self.trash_pos:
+                tx, ty = self.trash_pos[0]
+                if self.move_towards(controller, bot_id, tx, ty):
+                    if controller.trash(bot_id, tx, ty):
+                        self.simple_state = 2  # restart
 
     def play_turn(self, controller: RobotController):
         orders = controller.get_orders(controller.get_team())
@@ -1479,12 +1594,34 @@ class BotPlayer:
             key=lambda o: o["expires_turn"],
             reverse=True,
         )
-        logger(f"orders: {active_orders}")
+        # logger(f"orders: {active_orders}")
         self.turn_map = controller.get_map(controller.get_team())
         bots = controller.get_team_bot_ids(controller.get_team())
-        logger(f"[PLAY_TURN] Running turn for bots: {bots[:2]}")
+        # logger(f"[PLAY_TURN] Running turn for bots: {bots[:2]}")
+
+        # Use simple logic if only 1 counter detected
+        if self.use_simple_logic:
+            # logger("[PLAY_TURN] Using simple duo_noodle_bot logic")
+            if bots:
+                self.simple_bot_turn(controller, bots[0])
+                # Handle additional bots with random movement
+                for i in range(1, len(bots)):
+                    bot_id = bots[i]
+                    bot_info = controller.get_bot_state(bot_id)
+                    if bot_info:
+                        bx, by = bot_info["x"], bot_info["y"]
+                        dx = random.choice([-1, 0, 1])
+                        dy = random.choice([-1, 0, 1])
+                        nx, ny = bx + dx, by + dy
+                        if controller.get_map(controller.get_team()).is_tile_walkable(
+                            nx, ny
+                        ):
+                            controller.move(bot_id, dx, dy)
+            return
+
+        # Original complex logic for multiple counters
         for bot_id in bots[:2]:
-            logger(f"[PLAY_TURN] Calling bot_turn for bot {bot_id}")
+            # logger(f"[PLAY_TURN] Calling bot_turn for bot {bot_id}")
             self.bot_turn(controller, bot_id)
 
     def run_sabotage(self, controller: RobotController, bot_id: int):
@@ -1493,20 +1630,20 @@ class BotPlayer:
         - Move pans and clean plates to counters
         - Trash expensive food and plates with food
         """
-        logger(f"Bot {bot_id}: [SABOTAGE] run_sabotage called")
+        # logger(f"Bot {bot_id}: [SABOTAGE] run_sabotage called")
 
         bot_state = controller.get_bot_state(bot_id)
         if not bot_state:
-            logger(f"Bot {bot_id}: [SABOTAGE] No bot state, returning")
+            # logger(f"Bot {bot_id}: [SABOTAGE] No bot state, returning")
             return
 
         bot_x, bot_y = bot_state["x"], bot_state["y"]
         holding = bot_state.get("holding")
         current_map = controller.get_map(controller.get_enemy_team())
 
-        logger(
-            f"Bot {bot_id}: [SABOTAGE MODE] Position: ({bot_x}, {bot_y}), Holding: {holding}"
-        )
+        # logger(
+        # f"Bot {bot_id}: [SABOTAGE MODE] Position: ({bot_x}, {bot_y}), Holding: {holding}"
+        # )
 
         # If holding something, decide what to do with it
         if holding:
@@ -1514,7 +1651,7 @@ class BotPlayer:
 
             # Pans and clean plates go to counters
             if held_type == "Pan":
-                logger(f"Bot {bot_id}: [SABOTAGE] Holding pan, moving to counter")
+                # logger(f"Bot {bot_id}: [SABOTAGE] Holding pan, moving to counter")
                 # Find empty counters
                 empty_counters = []
                 for x in range(current_map.width):
@@ -1529,16 +1666,11 @@ class BotPlayer:
                         key=lambda pos: max(abs(bot_x - pos[0]), abs(bot_y - pos[1])),
                     )
                     cx, cy = nearest_counter
-                    logger(
-                        f"Bot {bot_id}: [SABOTAGE] Moving pan to counter ({cx}, {cy})"
-                    )
+                    # logger(
+                    # f"Bot {bot_id}: [SABOTAGE] Moving pan to counter ({cx}, {cy})"
+                    # )
                     if self.move_towards(controller, bot_id, cx, cy):
-                        if controller.place(bot_id, cx, cy):
-                            logger(f"Bot {bot_id}: [SABOTAGE] Placed pan on counter!")
-                        else:
-                            logger(f"Bot {bot_id}: [SABOTAGE] Failed to place pan")
-                else:
-                    logger(f"Bot {bot_id}: [SABOTAGE] No empty counters, keeping pan")
+                        controller.place(bot_id, cx, cy)
                 return
 
             elif held_type == "Plate":
@@ -1546,9 +1678,9 @@ class BotPlayer:
                 plate_food = holding.get("food", [])
                 if len(plate_food) > 0 or holding.get("dirty"):
                     # Plate has food or is dirty, trash it
-                    logger(
-                        f"Bot {bot_id}: [SABOTAGE] Holding dirty/loaded plate, trashing it"
-                    )
+                    # logger(
+                    # f"Bot {bot_id}: [SABOTAGE] Holding dirty/loaded plate, trashing it"
+                    # )
                     trash_positions = []
                     for x in range(current_map.width):
                         for y in range(current_map.height):
@@ -1564,19 +1696,9 @@ class BotPlayer:
                         )
                         tx, ty = nearest_trash
                         if self.move_towards(controller, bot_id, tx, ty):
-                            if controller.trash(bot_id, tx, ty):
-                                logger(
-                                    f"Bot {bot_id}: [SABOTAGE] Trashed loaded plate!"
-                                )
-                            else:
-                                logger(
-                                    f"Bot {bot_id}: [SABOTAGE] Failed to trash plate"
-                                )
+                            controller.trash(bot_id, tx, ty)
                 else:
                     # Clean empty plate, move to counter
-                    logger(
-                        f"Bot {bot_id}: [SABOTAGE] Holding clean plate, moving to counter"
-                    )
                     empty_counters = []
                     for x in range(current_map.width):
                         for y in range(current_map.height):
@@ -1593,16 +1715,13 @@ class BotPlayer:
                         )
                         cx, cy = nearest_counter
                         if self.move_towards(controller, bot_id, cx, cy):
-                            if controller.place(bot_id, cx, cy):
-                                logger(
-                                    f"Bot {bot_id}: [SABOTAGE] Placed clean plate on counter!"
-                                )
+                            controller.place(bot_id, cx, cy)
                 return
 
             elif held_type == "Food":
                 # Trash expensive food
                 food_name = holding.get("name", "")
-                logger(f"Bot {bot_id}: [SABOTAGE] Holding {food_name}, trashing it")
+                # logger(f"Bot {bot_id}: [SABOTAGE] Holding {food_name}, trashing it")
                 trash_positions = []
                 for x in range(current_map.width):
                     for y in range(current_map.height):
@@ -1616,15 +1735,10 @@ class BotPlayer:
                     )
                     tx, ty = nearest_trash
                     if self.move_towards(controller, bot_id, tx, ty):
-                        if controller.trash(bot_id, tx, ty):
-                            logger(f"Bot {bot_id}: [SABOTAGE] Trashed {food_name}!")
-                        else:
-                            logger(f"Bot {bot_id}: [SABOTAGE] Failed to trash food")
+                        controller.trash(bot_id, tx, ty)
                 return
 
         # Not holding anything, scan for targets
-        logger(f"Bot {bot_id}: [SABOTAGE] Scanning for sabotage targets")
-
         # Priority 1: Pans on cookers
         pans_on_cookers = []
         # Priority 2: Expensive food on counters (MEAT, ONION, EGG, NOODLES)
@@ -1646,31 +1760,17 @@ class BotPlayer:
 
                 if tile.tile_name == "COOKER" and item_type == "Pan":
                     pans_on_cookers.append((x, y))
-                    logger(f"Bot {bot_id}: [SABOTAGE] Found pan at cooker ({x}, {y})")
+                    # logger(f"Bot {bot_id}: [SABOTAGE] Found pan at cooker ({x}, {y})")
 
                 elif tile.tile_name == "COUNTER":
                     if item_type == "Food":
                         food_name = item.get("name", "")
                         if food_name in ["MEAT", "ONION", "EGG", "NOODLES"]:
                             expensive_food.append((x, y, food_name))
-                            logger(
-                                f"Bot {bot_id}: [SABOTAGE] Found {food_name} on counter ({x}, {y})"
-                            )
 
                     elif item_type == "Plate":
                         if len(item.get("food", [])) > 0:
                             plates_on_counters.append((x, y))
-                            logger(
-                                f"Bot {bot_id}: [SABOTAGE] Found plate on counter ({x}, {y})"
-                            )
-
-        logger(
-            f"Bot {bot_id}: [SABOTAGE] Found {len(pans_on_cookers)} pans, {len(expensive_food)} expensive foods, {len(plates_on_counters)} plates"
-        )
-
-        logger(
-            f"All pans on cookers : {pans_on_cookers}, expensive food: {expensive_food}, plates on counters: {plates_on_counters}"
-        )
 
         # Pick target in priority order
         target = None
@@ -1695,23 +1795,11 @@ class BotPlayer:
                 key=lambda pos: max(abs(bot_x - pos[0]), abs(bot_y - pos[1])),
             )
             target_type = "plate"
-        else:
-            logger(f"Bot {bot_id}: [SABOTAGE] No targets found, sabotage complete")
-            return
 
         # Move to target and pick it up
+        if target is None:
+            return
         tx, ty = target
-        logger(f"Bot {bot_id}: [SABOTAGE] Targeting {target_type} at ({tx}, {ty})")
 
         if self.move_towards(controller, bot_id, tx, ty):
-            logger(f"Bot {bot_id}: [SABOTAGE] Adjacent to target, attempting pickup")
-            if controller.pickup(bot_id, tx, ty):
-                logger(
-                    f"Bot {bot_id}: [SABOTAGE] Successfully picked up {target_type}!"
-                )
-            else:
-                logger(f"Bot {bot_id}: [SABOTAGE] Failed to pickup {target_type}")
-        else:
-            logger(
-                f"Bot {bot_id}: [SABOTAGE] Still moving towards {target_type} at ({tx}, {ty})"
-            )
+            controller.pickup(bot_id, tx, ty)
